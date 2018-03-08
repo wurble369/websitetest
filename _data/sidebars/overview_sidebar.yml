@@ -13,8 +13,8 @@ entries:
     - title: Getting started
       url: /overview_engage.html
       output: web
-    - title: Capabilities
-      url: /overview_priority_capabilities.html
+    - title: Endpoints
+      url: /overview_endpoints.html
       output: web
     - title: First of Type
       url: /overview_first_of_type.html
