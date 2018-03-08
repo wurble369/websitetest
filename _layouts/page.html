@@ -4,7 +4,9 @@ layout: default
 
  {% include custom/versionconfig.html %}
 
- {% include {{versionBanner}}.html %}
+ {% comment %}
+ #{% include {{versionBanner}}.html %}
+ {% endcomment %}
 
  {% unless jekyll.environment != "production" %}
 
