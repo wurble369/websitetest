@@ -7,7 +7,7 @@ summary: Endpoint Catalogue
 ---
 
 ## A001 Create Profressional Session ##
-[A001 Create Profressional Session](pages/endpoints/endpoints_a001.html){:target="_blank"}
+[A001 Create Profressional Session](endpoints/endpoints_a001.html){:target="_blank"}
 
 
 
