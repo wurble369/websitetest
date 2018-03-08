@@ -10,7 +10,7 @@ summary: "Get started with e-RS APIs"
 
 ## 1. Get Started ##
 
-(https://developer.nhs.uk/library/systems/e-rs/ecosystem/start/){:target="_blank"}
+[Start](https://developer.nhs.uk/library/systems/e-rs/ecosystem/start/){:target="_blank"}
 
 Non-technical and high-level technical documentation to get started with the development.
 
