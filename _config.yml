@@ -2,10 +2,10 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: GP Connect - FHIR&reg; APIs for GP IT systems
+topnav_title: NHS e-Referrals Service API 
 # this appears on the top navigation bar next to the home button
 
-site_title: GP Connect
+site_title: NHS e-Referrals Service API 
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: NHS Digital
@@ -81,23 +81,6 @@ defaults:
       search: true
       sidebar: overview_sidebar
 
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      search: true
-      sidebar: overview_sidebar
-
-  -
-    scope:
-      path: ""
-      type: "accessrecord_examples"
-    values:
-      layout: "page"
-
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
@@ -105,15 +88,15 @@ sidebars:
 - accessrecord_sidebar
 - appointments_sidebar
 
-description: "GP Connect aims to support better clinical care by opening up information and data held within GP Practice IT systems for use across health and social care. The GP Connect vision will be achieved by standardising integration and simplifying the operating model."
+description: ""
 # the description is used in the feed.xml file
 
 sitemap: true
 
 # needed for sitemap.xml file only
-url: https://nhsconnect.github.io/gpconnect
+url: https://wurble369.github.io/websitetest
 
-repository: nhsconnect/gpconnect
+repository: wurble369.github.io/websitetest
 
 gist:
   noscript: false
