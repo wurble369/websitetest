@@ -63,7 +63,15 @@
                             SimpleJekyllSearch.init({
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
-                                dataSource: '',
+                                dataSource: '[
+    {
+      "title"    : "Welcome to Jekyll!",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/jekyll/update/2014/11/01/welcome-to-jekyll.html",
+      "date"     : "2014-11-01 21:07:22 +0100"
+    }
+]',
                                 searchResultTemplate: '<li><a href="{url}" title="{{page.title | replace: "'", "\"}}">{title}</a></li>',
                     noResultsText: '{{site.data.strings.search_no_results_text}}',
                             limit: 10,
