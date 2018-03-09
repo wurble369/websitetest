@@ -96,7 +96,7 @@ sitemap: true
 # needed for sitemap.xml file only
 url: https://wurble369.github.io/websitetest
 
-repository: wurble369.github.io/websitetest
+repository: websitetest
 
 gist:
   noscript: false
