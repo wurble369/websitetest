@@ -10,11 +10,11 @@ summary: "Get started with e-RS APIs"
 
 ## 1. Get Started ##
 
-[Development Journey](getstarted_development_journey)
-[Get Connected](getstarted_get_connected)
-[Capabilities](getstarted_capabilities)
-[Glossary of Terms](getstarted_glossary_of_terms)
-[Partner Registration](getstarted_partner_registration)
+* [Development Journey](getstarted_development_journey)
+* [Get Connected](getstarted_get_connected)
+* [Capabilities](getstarted_capabilities)
+* [Glossary of Terms](getstarted_glossary_of_terms)
+* [Partner Registration](getstarted_partner_registration)
 
 Non-technical and high-level technical documentation to get started with the development.
 
