@@ -7,7 +7,7 @@ permalink: /getstarted.html
 summary: "Get started with e-RS APIs"
 ---
 
-## 1. Get Started ##
+## Get Started ##
 
 Non-technical and high-level technical documentation to get started with the development.
 

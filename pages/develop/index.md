@@ -7,7 +7,7 @@ permalink: /develop.html
 summary: "Develop using the e-RS APIs"
 ---
 
-## 1. Develop ##
+## Develop ##
 
 Business processes, code samples, and system test environments.
 

@@ -7,7 +7,7 @@ permalink: /explore.html
 summary: "Explore the e-RS APIs"
 ---
 
-## 1. Explore ##
+## Explore ##
 
 First taste of API through an interactive online console with full API reference, type system, and (ReST) resource definitions.
 
