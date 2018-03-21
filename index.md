@@ -13,10 +13,6 @@ A key aspect of the NHS e-RS vision is to enable local innovation and adoption o
 
 We want to stimulate and assist your development of applications linked to the NHS e-RS via its API. We describe and provide the usual tasks and support documents you will need here.
 
-{% include twitterfollow.html %}
-
-{% include gitterbadge.html %}
-
 # Ecosystem #
 
 The site has five main parts. Each aligns to a phase of development and partner engagement with NHS Digital, as shown below. The Communication Channels let you engage with each phase of the Ecosystem. They are enabling components.
