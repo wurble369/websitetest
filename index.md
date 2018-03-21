@@ -28,10 +28,10 @@ A summary of the activities and the support material in each of the phases are a
 
 |Phase|Description|
 |---|---|
-|1. Get&nbsp;Started|Non-technical and high-level technical documentation to get started with the development|
-|2. Explore|First taste of API through an interactive online console with full API reference, type system, and (ReST) resource definitions|
-|3. Develop|Business processes, code samples, and system test environments|
-|4. Assure|NHS Digital validation, integration testing, technical accreditation, and guidance to clinical safety and information governance|
-|5. Deploy|Registration, deployment certificates and monitoring|
+|1.&nbsp;Get&nbsp;Started|Non-technical and high-level technical documentation to get started with the development|
+|2.&nbsp;Explore|First taste of API through an interactive online console with full API reference, type system, and (ReST) resource definitions|
+|3.&nbsp;Develop|Business processes, code samples, and system test environments|
+|4.&nbsp;Assure|NHS Digital validation, integration testing, technical accreditation, and guidance to clinical safety and information governance|
+|5.&nbsp;Deploy|Registration, deployment certificates and monitoring|
 
 To begin head to the [Getting started](overview_engage.html) page.
