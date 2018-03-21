@@ -11,26 +11,26 @@ entries:
       output: web, pdf
       type: homepage
     - title: News and Events
-      url: news.html
+      url: /news.html
       output: web
     - title: Deployment History
-      url: deploymenthistory.html
+      url: /deploymenthistory.html
       output: web
     - title: Coming Soon
-      url: comingsoon.html
+      url: /comingsoon.html
       output: web
     - title: Get Started
-      url: getstarted.html
+      url: /getstarted.html
       output: web
     - title: Explore
-      url: explore.html
+      url: /explore.html
       output: web
     - title: Develop
-      url: Develop.html
+      url: /develop.html
       output: web
     - title: Assure
-      url: assure.html
+      url: /assure.html
       output: web
     - title: Deploy
-      url: deploy.html
+      url: /deploy.html
       output: web
