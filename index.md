@@ -1,7 +1,7 @@
 ---
 title: Introduction
 keywords: homepage
-sidebar: home_sidebar
+sidebar: overview_sidebar
 permalink: index.html
 toc: false
 summary: A brief introduction to getting started with the e-RS APIs
