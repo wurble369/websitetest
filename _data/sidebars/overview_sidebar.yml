@@ -10,9 +10,30 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Getting started
-      url: /overview_get_started.html
+    - title: News and Events
+      url: news.html
       output: web
-    - title: Endpoints
-      url: /overview_endpoints.html
+    - title: Coming Soon
+      url: comingsoon.html
+      output: web
+    - title: Deployment History
+      url: deploymenthistory.html
+      output: web
+    - title: Getting started
+      url: getstarted.html
+      output: web
+    - title: Explore
+      url: explore.html
+      output: web
+    - title: Explore
+      url: explore.html
+      output: web
+    - title: Develop
+      url: Develop.html
+      output: web
+    - title: Assure
+      url: assure.html
+      output: web
+    - title: Deploy
+      url: deploy.html
       output: web
