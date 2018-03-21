@@ -1,6 +1,6 @@
 entries:
-- title: GP Connect
-  levels: one
+- title: e-RS APIs
+  levels: two
   folders:
 
   - title: Overview
@@ -11,7 +11,7 @@ entries:
       output: web, pdf
       type: homepage
     - title: Getting started
-      url: /overview_engage.html
+      url: /overview_get_started.html
       output: web
     - title: Endpoints
       url: /overview_endpoints.html
