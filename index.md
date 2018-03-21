@@ -24,5 +24,14 @@ The site has five main parts. Each aligns to a phase of development and partner 
 
 {% include ecosystem.html %}
 
-To begin head to the [Getting started](overview_engage.html) page.
+A summary of the activities and the support material in each of the phases are as follows:
 
+|Phase|Desscription|
+|---|---|
+|1. Get Started|non-technical and high-level technical documentation to get started with the development|
+|2. Explore|first taste of API through an interactive online console with full API reference, type system, and (ReST) resource definitions|
+|3. Develop|business processes, code samples, and system test environments|
+|4. Assure|NHS Digital validation, integration testing, technical accreditation, and guidance to clinical safety and information governance|
+|5. Deploy|registration, deployment certificates and monitoring|
+
+To begin head to the [Getting started](overview_engage.html) page.
