@@ -11,10 +11,10 @@ For details of core e-Referral Service Application changes, please visit [NHS Di
 
 ## API Deployment History ##
 
-### 7.0 (Released 08/12/17) ###
+### 7.0 (Released 08/12/17) ###
 A014: Reject Referral API (Alpha)
 
-### 6.9 (Released 10/11/17) ###
+### 6.9 (Released 10/11/17) ###
 A013: Accept Referral API (Alpha)
 
 ### 6.8 (Released 13/10/17) ###
