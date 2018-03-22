@@ -1,7 +1,7 @@
 ---
 title: Get started with e-RS APIs
 keywords: engage, about
-sidebar: overview_sidebar
+sidebar: getstarted_sidebar
 toc: false
 permalink: /getstarted.html
 summary: "Get started with e-RS APIs"
