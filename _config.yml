@@ -85,8 +85,6 @@ defaults:
 
 sidebars:
 - overview_sidebar
-- accessrecord_sidebar
-- appointments_sidebar
 - getstarted_sidebar
 
 description: ""

@@ -19,18 +19,18 @@ entries:
     - title: Coming Soon
       url: /comingsoon.html
       output: web
-    - title: Get Started
-      url: /getstarted.html
-      output: web
-    - title: Explore
-      url: /explore.html
-      output: web
-    - title: Develop
-      url: /develop.html
-      output: web
-    - title: Assure
-      url: /assure.html
-      output: web
-    - title: Deploy
-      url: /deploy.html
-      output: web
+  - title: Get Started
+    url: /getstarted.html
+    output: web
+  - title: Explore
+    url: /explore.html
+    output: web
+  - title: Develop
+    url: /develop.html
+    output: web
+  - title: Assure
+    url: /assure.html
+    output: web
+  - title: Deploy
+    url: /deploy.html
+    output: web
