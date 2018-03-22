@@ -9,7 +9,7 @@ summary: "Development Journey"
 
 The diagram below provides a more detailed view of a typical Development Journey as a sequence of phases together with the key activities, support materials and/or services provided by the Ecosystem.
 
-![NHS e-RS API Development Journey]({{ "/assets/getstarted/NHS_eRS_API_Development_Journey-1024x835.jpg" | absolute_url }})
+![NHS e-RS API Development Journey]({{ "/images/getstarted/NHS_eRS_API_Development_Journey-1024x835.jpg" | absolute_url }})
 
 Note that not all activities are illustrated. For instance, Clinical Safety assessment and Information Governance (IG) assurance.
 
