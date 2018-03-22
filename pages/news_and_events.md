@@ -7,6 +7,4 @@ toc: false
 summary: "News and Events"
 ---
 
-# News and Events #
-
-To be populated.
+To be populated.  
