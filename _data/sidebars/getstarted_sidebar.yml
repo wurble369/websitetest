@@ -10,14 +10,14 @@ entries:
       url: /getstarted_development_journey.html
       output: web
     - title: Get Connected
-      url: getstarted_get_connected.html
+      url: /getstarted_get_connected.html
       output: web
     - title: Capabilities
-      url: getstarted_capabilities.html
+      url: /getstarted_capabilities.html
       output: web
     - title: Glossary of Terms
-      url: getstarted_glossary_of_terms.html
+      url: /getstarted_glossary_of_terms.html
       output: web
     - title: Partner Registration
-      url: getstarted_partner_registration.html
+      url: /getstarted_partner_registration.html
       output: web
