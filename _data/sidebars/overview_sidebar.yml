@@ -14,10 +14,10 @@ entries:
       url: /news.html
       output: web
     - title: Deployment History
-      url: /deploymenthistory.html
+      url: /deployment_history.html
       output: web
     - title: Coming Soon
-      url: /comingsoon.html
+      url: /coming_soon.html
       output: web
   - title: Get Started
     output: web
