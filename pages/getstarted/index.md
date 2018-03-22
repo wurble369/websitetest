@@ -9,8 +9,6 @@ summary: "Get started with e-RS APIs"
 
 ## Get Started ##
 
-fnord
-
 Non-technical and high-level technical documentation to get started with the development.
 
 * [Development Journey](getstarted_development_journey)
