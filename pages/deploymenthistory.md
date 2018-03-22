@@ -10,6 +10,7 @@ summary: "Deployment history for the e-RS APIs"
 For details of core e-Referral Service Application changes, please visit https://digital.nhs.uk/e-Referral-Service/Live-service-information-and-alerts/Releases
 
 ## API Deployment History ##
+
 ### 7.0 (Released 08/12/17) ###
 A014: Reject Referral API (Alpha)
 
