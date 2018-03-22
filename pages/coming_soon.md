@@ -8,7 +8,7 @@ summary: "Planned deployments for the e-RS APIs"
 ---
 
 ## e-RS Release 7.1, due for deployment 19/01/18
-This release will include an updated Service Search Alpha API, the original Alpha released in August 2017 allowed searches on the following attributes
+This release will include an updated Service Search Alpha API, the original Alpha released in August 2017 allowed searches on the following attributes:
 
 * Clinic Type
 * Request Type
