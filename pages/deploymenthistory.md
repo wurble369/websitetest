@@ -12,9 +12,11 @@ For details of core e-Referral Service Application changes, please visit https:/
 ## API Deployment History ##
 
 ### 7.0 (Released 08/12/17) ###
+x
 A014: Reject Referral API (Alpha)
 
 ### 6.9 (Released 10/11/17) ###
+x
 A013: Accept Referral API (Alpha)
 
 ### 6.8 (Released 13/10/17) ###
