@@ -4,7 +4,7 @@ keywords: coming, soon
 sidebar: overview_sidebar
 permalink: /coming_soon.html
 toc: false
-summary: "Coming Soon"
+summary: "Planned deployments for the e-RS APIs"
 ---
 
 ## e-RS Release 7.1, due for deployment 19/01/18

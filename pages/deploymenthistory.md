@@ -4,7 +4,7 @@ keywords: deployment, history
 sidebar: overview_sidebar
 permalink: /deployment_history.html
 toc: false
-summary: "Deployment History"
+summary: "Deployment history for the e-RS APIs"
 ---
 
 For details of core e-Referral Service Application changes, please visit https://digital.nhs.uk/e-Referral-Service/Live-service-information-and-alerts/Releases
