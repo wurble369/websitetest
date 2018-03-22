@@ -38,8 +38,8 @@ entries:
       url: /getstarted_partner_registration.html
       output: web
   - title: Explore
-    url: /explore.html
     output: web
+    folderitems:
     - title: API Environments
       url: /explore_api_environments.html
       output: web
@@ -50,8 +50,8 @@ entries:
       url: /explore_resources.html
       output: web
   - title: Develop
-    url: /develop.html
     output: web
+    folderitems:
     - title: Business Flows
       url: /develop_business_flows.html
       output: web
@@ -62,8 +62,8 @@ entries:
       url: /develop_test_data.html
       output: web
   - title: Assure
-    url: /assure.html
     output: web
+    folderitems:
     - title: Business Partners
       url: /assure_business_partners.html
       output: web
@@ -74,8 +74,8 @@ entries:
       url: /assure_path_to_live.html
       output: web
   - title: Deploy
-    url: /deploy.html
     output: web
+    folderitems:
     - title: Release Methodology
       url: /deploy_release_methodology.html
       output: web
