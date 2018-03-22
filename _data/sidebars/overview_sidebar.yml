@@ -40,12 +40,42 @@ entries:
   - title: Explore
     url: /explore.html
     output: web
+    - title: API Environments
+      url: /explore_api_environments.html
+      output: web
+    - title: Endpoint Catalogue
+      url: /explore_endpoint_catalogue.html
+      output: web
+    - title: Resources
+      url: /explore_resources.html
+      output: web
   - title: Develop
     url: /develop.html
     output: web
+    - title: Business Flows
+      url: /develop_business_flows.html
+      output: web
+    - title: Code Samples
+      url: /develop_code_samples.html
+      output: web
+    - title: Test Data
+      url: /develop_test_data.html
+      output: web
   - title: Assure
     url: /assure.html
     output: web
+    - title: Business Partners
+      url: /assure_business_partners.html
+      output: web
+    - title: Assurance Approach
+      url: /assure_assurance_approach.html
+      output: web
+    - title: Path-To-Live
+      url: /assure_path_to_live.html
+      output: web
   - title: Deploy
     url: /deploy.html
     output: web
+    - title: Release Methodology
+      url: /deploy_release_methodology.html
+      output: web
