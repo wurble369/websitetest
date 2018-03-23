@@ -7,7 +7,7 @@ permalink: getstarted_get_connected.html
 summary: "How to get connected to the e-RS APIs in a few simple steps"
 ---
 
-### Getting Connected is simple, but there are 3 important things to know ###
+Getting Connected is simple, but there are 3 important things to know:
 
 1. Your organisation needs to be using a secure Health and Social Care Network (HSCN) Connection (this was previously N3)
 2. APIs can only be accessed using a smartcard
