@@ -58,9 +58,7 @@ Values:
 * ADDITIONAL_REQUIREMENTS_MANAGER
 * REFERRER_RIGHTS_MANAGER
 
-Blerp
-
-## ProfessionalSession ##
+## ValueSet ##
 
 |Value Set ID|FHIR Profile|
 |---|---|
