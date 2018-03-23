@@ -46,4 +46,4 @@ Once you have received a certificate from our Solutions Assurance Desk you will 
 
 First, you’ll need to install ROOT and SUBCA certificates. Here’s a handy guide to get you started
 
-[https://developer.nhs.uk/wp-content/uploads/2018/01/Install-ROOTCA-and-SUBCA-certificates-v1.0.pdf](Certificate Installation Guide.pdf)
+[Certificate Installation Guide.pdf](https://developer.nhs.uk/wp-content/uploads/2018/01/Install-ROOTCA-and-SUBCA-certificates-v1.0.pdf)
