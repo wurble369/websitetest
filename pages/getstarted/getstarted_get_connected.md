@@ -15,11 +15,11 @@ summary: "How to get connected to the e-RS APIs in a few simple steps"
 
 If you do not have a HSCN Connection, please go to the following site to request one:
 
-https://digital.nhs.uk/health-social-care-network/new-to-hscn/connecting-to-HSCN
+* [Connecting to HSCN](https://digital.nhs.uk/health-social-care-network/new-to-hscn/connecting-to-HSCN)
 
 If you require a smartcard, please go to the following site to find out more:
 
-https://digital.nhs.uk/Registration-Authorities-and-Smartcards
+* [Registration Authorities and Smartcards](https://digital.nhs.uk/Registration-Authorities-and-Smartcards)
 
 Once you have a smartcard and a HSCN connection, you are now ready to request access to our Development Environment in order to integrate with the e-Referral Service APIs. The first thing to do is request a new End Point, unique to your organisation. You can do so by filling in the following form:
 
