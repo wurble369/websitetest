@@ -13,10 +13,10 @@ The Consumer Example is a constituent element of the API Sandpit (Google Chrome 
 
 * [Access](http://api-ers.spine2.ncrs.nhs.uk:88/ers-consumer-example/#/)
 
-![](images/Consumer_Example.png)
+![](images/develop/Consumer_Example.png)
 
 The API Demonstrator, represents an individual packaged application, which has been designed to allow external business partners quicker Path-To-Live (PTL) environment configuration and setup. It requires a suitable Spine certificate-based endpoint, an appropriate copy of the NHS Digital Identity Agent client software and an appropriate smartcard and testdata. A copy of this demonstrator will be provided on request with PTL access co-ordinated through the Solutions Assurance Service Desk or N3-based Assurance Portal.
 
 * [Access](http://www.assurancesupport.digital.nhs.uk/)
 
-![](images/API_Demonstrator.png)
+![](images/develop/API_Demonstrator.png)
