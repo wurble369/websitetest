@@ -9,7 +9,7 @@ summary: "Catalogue of all API endpoints"
 
 |Id|Name|Family|Verb|URI|
 |---|---|---|---|
-|A001|[Create Professional Session](/explore_endpoint_a001.html)|Session|POST|[/v1/ProfessionalSession](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/professionalsession/createProfessionalSessionUsingPOST)|
+|A001|[Create Professional Session](explore_endpoint_a001.html)|Session|POST|[/v1/ProfessionalSession](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/professionalsession/createProfessionalSessionUsingPOST)|
 |A002|Professional Session Select Role|Session|PUT|[/v1/ProfessionalSession/{sessionKey}](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/professionalsession/updateProfessionalSessionSelectRoleUsingPUT)|
 |A003|Delete Professional Session|Session|DELETE|[/v1/ProfessionalSession/{sessionKey}](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/professionalsession/deleteProfessionalSessionUsingDELETE)|
 |A004|Retrieve Reference Data|Reference Data|GET|[/v1/ValueSet/{valueSetId}](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/valueset/getValueSetUsingGET)|
