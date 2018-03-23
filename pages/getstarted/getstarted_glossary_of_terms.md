@@ -7,6 +7,4 @@ permalink: getstarted_glossary_of_terms.html
 summary: "Glossary of Terms"
 ---
 
-## Glossary of Terms ##
-
-Text about it.
+### This page did not exist on the original website ###

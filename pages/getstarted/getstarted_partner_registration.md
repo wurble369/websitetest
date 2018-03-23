@@ -7,6 +7,4 @@ permalink: getstarted_partner_registration.html
 summary: "Partner Registration"
 ---
 
-## Partner Registration ##
-
-Text about it.
+### This page did not exist on the original website ###

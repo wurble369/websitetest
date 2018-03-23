@@ -7,6 +7,4 @@ permalink: getstarted_capabilities.html
 summary: "Capabilities"
 ---
 
-## Capabilities ##
-
-Text about it.
+### This page did not exist on the original website ###
