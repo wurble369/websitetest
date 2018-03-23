@@ -1,11 +1,9 @@
 ---
 title: A001 Create Professional Session
 sidebar: overview_sidebar
-permalink: endpoints_a001.html
-summary: "A001 Create Professional Session."
+permalink: explore_endpoint_a001.html
+summary: "A001 Create Professional Session"
 ---
-
-# A001 Create Professional Session
 
 ## API
 [POST /v1/ProfessionalSession](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/professionalsession/createProfessionalSessionUsingPOST){:target="_blank"}
@@ -65,5 +63,5 @@ The ProffessionalSession.id returned should be included as a header (HTTP_X_SESS
 
 HTTP Status Code | Reason | Response Model | Headers
 ---------------- | ------ | -------------- | -------
-403 | Forbidden 
+403 | Forbidden
 422 | Unprocessable Entity – Provided data could not be processed due to a validation error.
