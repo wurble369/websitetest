@@ -30,7 +30,7 @@ _NOTE: Session level data models are not covered by FHIR and therefore there is 
 |middleName|String|User middle name.|
 |permissions|List<ProfessionalPermission>|Permission applicable to the user.|
 
-### ProfessionalPermissionz ###
+### ProfessionalPermission ###
 
 |Field|Type|Description|
 |---|---|---|
