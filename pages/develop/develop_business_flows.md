@@ -4,7 +4,7 @@ keywords: business, flows
 sidebar: overview_sidebar
 toc: false
 permalink: /develop_business_flows.html
-summary: "Business Flows"
+summary: "Business flows and their related endpoints"
 ---
 
 ## BF001: Authentication and Authorisation ##
