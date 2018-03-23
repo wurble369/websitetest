@@ -23,7 +23,7 @@ If you require a smartcard, please go to the following site to find out more:
 
 Once you have a smartcard and a HSCN connection, you are now ready to request access to our Development Environment in order to integrate with the e-Referral Service APIs. The first thing to do is request a new End Point, unique to your organisation. You can do so by filling in the following form:
 
-[End Point Registration Form](https://developer.nhs.uk/wp-content/uploads/2018/01/e-RS-API-EPR-Form-v1-4.docx)
+* [End Point Registration Form](https://developer.nhs.uk/wp-content/uploads/2018/01/e-RS-API-EPR-Form-v1-4.docx)
 
 Once you have downloaded the form, please enter the following information and return to (sa.servicedesk@nhs.net)
 
@@ -44,6 +44,6 @@ If you have any queries about connecting to Spine Development (smartcards, endpo
 
 Once you have received a certificate from our Solutions Assurance Desk you will need to follow a few simple steps that will allow you to begin your e-Referral Service Integration journey
 
-First, you’ll need to install ROOT and SUBCA certificates. Here’s a handy guide to get you started
+First, you’ll need to install ROOT and SUBCA certificates. Here’s a handy guide to get you started:
 
-[Certificate Installation Guide.pdf](https://developer.nhs.uk/wp-content/uploads/2018/01/Install-ROOTCA-and-SUBCA-certificates-v1.0.pdf)
+* [Certificate Installation Guide.pdf](https://developer.nhs.uk/wp-content/uploads/2018/01/Install-ROOTCA-and-SUBCA-certificates-v1.0.pdf)
