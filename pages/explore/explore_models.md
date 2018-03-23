@@ -12,21 +12,26 @@ summary: "In-depth informatin about relevant data models"
 _NOTE: Session level data models are not covered by FHIR and therefore there is no associated e-RS Profile._
 
 ### ProfessionalSession Resource ###
-Field	Type	Description
-id	String	Session ID.
-token	String	Authentication Token.
-user	ProfessionalSessionUser	Professional User associated with the Session.
-permission	ProfessionalPermission	Selected Permission.
 
-### ProfessionalSessionUser ###
-Field	Type	Description
-identifier	String	Unique identifier for the user.
-firstName	String	User first name.
-lastName	String	User last name.
-middleName	String	User middle name.
-permissions	List<ProfessionalPermission>	Permission applicable to the user.
+|Field|Type|Description|
+|---|---|---|
+|id|String|Session ID.|
+|token|String|Authentication Token.|
+|user|ProfessionalSessionUser|Professional User associated with the Session.|
+|permission|ProfessionalPermission|Selected Permission.|
+
+### ProfessionalSessionUser ###
+
+|Field|Type|Description|
+|---|---|---|
+|identifier|String|Unique identifier for the user.|
+|firstName|String|User first name.|
+|lastName|String|User last name.|
+|middleName|String|User middle name.|
+|permissions|List<ProfessionalPermission>|Permission applicable to the user.|
 
 ### ProfessionalPermission ###
+
 |Field|Type|Description|
 |---|---|---|
 |businessFunction|BusinessFunction (String)|The enumerated Business Function for the permission.|
