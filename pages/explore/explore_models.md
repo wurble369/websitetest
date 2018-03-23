@@ -63,7 +63,7 @@ Values:
 |Value Set ID|FHIR Profile|
 |---|---|
 |SPECIALTY (Beta)|e-RS Specialty|
-|REQUEST_PRIORITY|Not live at this time|
-|CLINIC_TYPE|Not live at this time|
-|REQUEST_TYPE|Not live at this time|
-|COMMISSIONING_TYPE|Not live at this time|
+|REQUEST_PRIORITY|_Not live at this time_|
+|CLINIC_TYPE|_Not live at this time_|
+|REQUEST_TYPE|_Not live at this time_|
+|COMMISSIONING_TYPE|_Not live at this time_|
