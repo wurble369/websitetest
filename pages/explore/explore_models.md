@@ -60,7 +60,7 @@ Values:
 
 Blerp
 
-## ValueSet ##
+## ProfessionalSession ##
 
 |Value Set ID|FHIR Profile|
 |---|---|
