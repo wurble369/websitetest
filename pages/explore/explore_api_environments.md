@@ -9,15 +9,11 @@ summary: "Access and explore the two supporting API environments"
 
 To support the development of APIs within the Ecosystem, there are two supporting environments. These comprise:
 
-## Duck ##
-
 ## API Development Sandpit ##
 
 * [Access](http://api1:82/login_dev_work?nocardreader=1)
 
 This comprises a full Virtual Machine installation of a NHS e-RS environment. This environment is operated through mock (non-Spine connected) authentication routines and test data.
-
-## Fish ##
 
 ## API Console ##
 
