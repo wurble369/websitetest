@@ -23,7 +23,7 @@ https://digital.nhs.uk/Registration-Authorities-and-Smartcards
 
 Once you have a smartcard and a HSCN connection, you are now ready to request access to our Development Environment in order to integrate with the e-Referral Service APIs. The first thing to do is request a new End Point, unique to your organisation. You can do so by filling in the following form:
 
-End Point Registration Form
+[End Point Registration Form](https://developer.nhs.uk/wp-content/uploads/2018/01/e-RS-API-EPR-Form-v1-4.docx)
 
 Once you have downloaded the form, please enter the following information and return to (sa.servicedesk@nhs.net)
 
