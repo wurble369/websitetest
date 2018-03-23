@@ -1,6 +1,6 @@
 ---
-title: Resources
-keywords: resources
+title: Standard Resources
+keywords: fhir, resources
 sidebar: overview_sidebar
 toc: false
 permalink: /explore_resources.html
