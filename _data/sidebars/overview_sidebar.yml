@@ -46,8 +46,11 @@ entries:
     - title: Endpoint Catalogue
       url: /explore_endpoint_catalogue.html
       output: web
-    - title: Resources
+    - title: Standard Resources
       url: /explore_resources.html
+      output: web
+    - title: Standard Models
+      url: /explore_models.html
       output: web
   - title: Develop
     output: web
