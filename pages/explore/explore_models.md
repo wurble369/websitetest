@@ -11,7 +11,7 @@ summary: "In-depth informatin about relevant data models"
 
 _NOTE: Session level data models are not covered by FHIR and therefore there is no associated e-RS Profile._
 
-### ProfessionalSession Resource ###
+### ProfessionalSession Resource ###
 
 |Field|Type|Description|
 |---|---|---|
@@ -39,7 +39,9 @@ _NOTE: Session level data models are not covered by FHIR and therefore there is 
 |orgName|String|The name of the organisation this permission is applicable to.|
 
 ### BusinessFunction (String) ###
+
 Values:
+
 * REFERRING_CLINICIAN
 * REFERRING_CLINICIAN_ADMIN
 * REFERRING_ADMIN
@@ -57,6 +59,7 @@ Values:
 * REFERRER_RIGHTS_MANAGER
 
 ## ValueSet ##
+
 |Value Set ID|FHIR Profile|
 |---|---|
 |SPECIALTY (Beta)|e-RS Specialty|
