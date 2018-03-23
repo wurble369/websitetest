@@ -1,6 +1,8 @@
 ---
 title: A001 Create Professional Session
+keywords: endpoint, catalogue
 sidebar: overview_sidebar
+toc: false
 permalink: explore_endpoint_a001.html
 summary: "A001 Create Professional Session"
 ---
