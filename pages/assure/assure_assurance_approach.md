@@ -7,6 +7,4 @@ permalink: /assure_assurance_approach.html
 summary: "Assurance Approach"
 ---
 
-## Assurance Approach ##
-
-Text about it.
+## TODO ##

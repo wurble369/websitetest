@@ -7,6 +7,4 @@ permalink: /assure_business_partners.html
 summary: "Business Partners"
 ---
 
-## Business Partners ##
-
-Text about it.
+## TODO ##
