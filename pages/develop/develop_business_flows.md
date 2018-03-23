@@ -9,6 +9,8 @@ summary: "Business Flows"
 
 ## BF001: Authentication and Authorisation ##
 
+## BF001: Authentication and Authorisation ##
+
 This business flow describes the process of creating an authorised  professional API session based upon an authenticated Care identify Service (CIS) smartcard. It makes use of the following NHS e-RS API Endpoints in order, with persisted rights to undertake further business workflows until the session is terminated.
 
 * A001 – Create Professional Session
