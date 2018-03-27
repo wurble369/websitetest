@@ -7,6 +7,8 @@ permalink: /explore_endpoint_catalogue.html
 summary: "Catalogue of all API endpoints"
 ---
 
+## To be updated with latest API endpoints ##
+
 |Id|Name|Family|Verb|URI|
 |---|---|---|---|
 |A001|[Create Professional Session](explore_endpoint_a001.html)|Session|POST|[/v1/ProfessionalSession](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/professionalsession/createProfessionalSessionUsingPOST)|
