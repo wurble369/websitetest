@@ -57,46 +57,46 @@ entries:
         - title: "- Overview"
           url: /explore_endpoint_catalogue.html
           output: web
-        - title: "- A001 Create Professional Session"
+        - title: "- A001: Create Professional Session"
           url: /explore_endpoint_a001.html
           output: web
-        - title: "- A002 Professional Session Select Role"
+        - title: "- A002: Professional Session Select Role"
           url: /explore_endpoint_a002.html
           output: web
-        - title: "- A003 Delete Professional Session"
+        - title: "- A003: Delete Professional Session"
           url: /explore_endpoint_a003.html
           output: web
-        - title: "- A004 Retrieve Reference Data"
+        - title: "- A004: Retrieve Reference Data"
           url: /explore_endpoint_a004.html
           output: web
-        - title: "- A005 Retrieve Referral Request"
+        - title: "- A005: Retrieve Referral Request"
           url: /explore_endpoint_a005.html
           output: web
-        - title: "- A006 Retrieve Attachment"
+        - title: "- A006: Retrieve Attachment"
           url: /explore_endpoint_a006.html
           output: web
-        - title: "- A007 Retrieve Clinical Information"
+        - title: "- A007: Retrieve Clinical Information"
           url: /explore_endpoint_a007.html
           output: web
-        - title: "- A008 Retrieve Worklist"
+        - title: "- A008: Retrieve Worklist"
           url: /explore_endpoint_a008.html
           output: web
-        - title: "- A009 Directory Service Search"
+        - title: "- A009: Directory Service Search"
           url: /explore_endpoint_a009.html
           output: web
-        - title: "- A010 Patient Service Search"
+        - title: "- A010: Patient Service Search"
           url: /explore_endpoint_a010.html
           output: web
-        - title: "- A011 Create Referral Request Through Shortlist"
+        - title: "- A011: Create Referral Request Through Shortlist"
           url: /explore_endpoint_a011.html
           output: web
-        - title: "- A012 Upload Attachments"
+        - title: "- A012: Upload Attachments"
           url: /explore_endpoint_a012.html
           output: web
-        - title: "- A013 Accept Referral"
+        - title: "- A013: Accept Referral"
           url: /explore_endpoint_a013.html
           output: web
-        - title: "- A014 Reject Referral"
+        - title: "- A014: Reject Referral"
           url: /explore_endpoint_a014.html
           output: web
 
