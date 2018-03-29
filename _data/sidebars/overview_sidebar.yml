@@ -1,6 +1,6 @@
 entries:
 - title: e-RS APIs
-  levels: two
+  levels: three
   folders:
 
   - title: Overview
@@ -19,6 +19,7 @@ entries:
     - title: Coming Soon
       url: /coming_soon.html
       output: web
+
   - title: Get Started
     output: web
     folderitems:
@@ -37,6 +38,7 @@ entries:
     - title: Partner Registration
       url: /getstarted_partner_registration.html
       output: web
+
   - title: Explore
     output: web
     folderitems:
@@ -45,6 +47,8 @@ entries:
       output: web
     - title: Endpoint Catalogue
       output: web
+      subfolders:
+
       subfolderitems:
       - title: Overview
         url: /explore_endpoint_catalogue.html
@@ -52,12 +56,14 @@ entries:
       - title: A001
         url: explore_endpoint_a001.html
         output: web
+
     - title: Standard Resources
       url: /explore_resources.html
       output: web
     - title: Standard Models
       url: /explore_models.html
       output: web
+
   - title: Develop
     output: web
     folderitems:
@@ -70,6 +76,7 @@ entries:
     - title: Test Data
       url: /develop_test_data.html
       output: web
+
   - title: Assure
     output: web
     folderitems:
@@ -82,6 +89,7 @@ entries:
     - title: Path-To-Live
       url: /assure_path_to_live.html
       output: web
+      
   - title: Deploy
     output: web
     folderitems:
