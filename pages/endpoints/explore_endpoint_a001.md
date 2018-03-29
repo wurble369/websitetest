@@ -4,7 +4,7 @@ keywords: endpoint, catalogue
 sidebar: overview_sidebar
 toc: false
 permalink: explore_endpoint_a001.html
-summary: false
+summary: "Fnord"
 ---
 
 ## API
