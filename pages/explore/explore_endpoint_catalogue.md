@@ -16,7 +16,7 @@ summary: "Catalogue of all API endpoints"
 |A005|Retrieve Referral Request|Clinical Referral Information|GET|/v1/ReferralRequest/{id}|
 |A006|Retrieve Attachment|Clinical Referral Information|GET|/v1/Binary/att-{referralRequestAttachmentId|
 |A007|Retrieve Clinical Information|Clinical Referral Information|GET|/v1/Binary/$ers.generateCRI|
-|A008|Retrieve Worklist|Clinical Referral Information|GET|[/v1/ReferralRequest/$ers.fetchworklist|
+|A008|Retrieve Worklist|Clinical Referral Information|GET|/v1/ReferralRequest/$ers.fetchworklist|
 |A009|Directory Service Search|???|POST|/v1/HealthcareService/$dos.serviceSearch|
 |A010|Patient Service Search|???|POST|/v1/HealthcareService/$patient.serviceSearch|
 |A011|Create Referral Request Through Shortlist|???|POST|/v1/CreateReferral|

@@ -4,17 +4,17 @@ keywords: endpoint, catalogue
 sidebar: overview_sidebar
 toc: false
 permalink: explore_endpoint_a001.html
-summary: false
+summary: "A001 Create Professional Session"
 ---
 
 ## API
-[POST /v1/ProfessionalSession](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession)
+[POST /v1/ProfessionalSession](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/professionalsession/createProfessionalSessionUsingPOST){:target="_blank"}
 
 ## Description
 Creates a Professional Session in the Spine using smartcard roles. This gives a secure login.
 
 ## Input
-[Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/)
+[Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/){:target="_blank"}
 
 Provide only a token when first creating a session.
 
@@ -26,10 +26,10 @@ Provide only a token when first creating a session.
 ```
 
 ## Output
-The created [Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/) will be returned with available user permissions populated.
+The created [Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/){:target="_blank"} will be returned with available user permissions populated.
 
 ## Code Sample
-Code snippets taken from the consumer example. See [Code Samples](https://developer.nhs.uk/library/systems/e-rs/ecosystem/develop/code/) for further details.
+Code snippets taken from the consumer example. See [Code Samples](https://developer.nhs.uk/library/systems/e-rs/ecosystem/develop/code/){:target="_blank"} for further details.
 
 ```javascript
 function createSession(tokenCode, entryUrl) {
