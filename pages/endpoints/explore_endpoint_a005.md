@@ -1,9 +1,9 @@
 ---
-title: A002: Professional Session Select Role
+title: A005: Professional Session Select Role
 keywords: endpoint, catalogue
 sidebar: overview_sidebar
 toc: false
-permalink: explore_endpoint_a001.html
+permalink: explore_endpoint_a005.html
 summary: false
 ---
 
