@@ -1,10 +1,10 @@
 entries:
 
 - title: e-RS APIs
-
   folders:
 
   - title: Overview
+    output: web
     folderitems:
     - title: Introduction
       url: /index.html
@@ -21,6 +21,7 @@ entries:
       output: web
 
   - title: Get Started
+    output: web
     folderitems:
     - title: Development Journey
       url: /getstarted_development_journey.html
@@ -39,14 +40,15 @@ entries:
       output: web
 
   - title: Explore
+    output: web
     folderitems:
     - title: API Environments
       url: /explore_api_environments.html
       output: web
-
       subfolders:
 
     - title: Endpoint Catalogue
+      output: web
       subfolderitems:
       - title: Overview
         url: /explore_endpoint_catalogue.html
@@ -63,6 +65,7 @@ entries:
       output: web
 
   - title: Develop
+    output: web
     folderitems:
     - title: Business Flows
       url: /develop_business_flows.html
@@ -75,6 +78,7 @@ entries:
       output: web
 
   - title: Assure
+    output: web
     folderitems:
     - title: Business Partners
       url: /assure_business_partners.html
@@ -87,6 +91,7 @@ entries:
       output: web
 
   - title: Deploy
+    output: web
     folderitems:
     - title: Release Methodology
       url: /deploy_release_methodology.html
