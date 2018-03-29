@@ -274,12 +274,12 @@ UBRN number.
 ```
 
 ## Output
-To follow
+To follow.
 
 ## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
-To follow
+To follow.
 
 ## Notes
-To follow
+To follow.

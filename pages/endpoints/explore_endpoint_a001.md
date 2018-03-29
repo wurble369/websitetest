@@ -62,8 +62,7 @@ Once the session has been created a list of applicable permissions for the user 
 The ProfessionalSession.id returned should be included as a header (HTTP_X_SESSION_KEY) for all subsequent requests.
 
 ### Response Messages
-
-HTTP Status Code | Reason | Response Model | Headers
----------------- | ------ | -------------- | -------
-403 | Forbidden
-422 | Unprocessable Entity – Provided data could not be processed due to a validation error.
+| HTTP Status Code | Reason | Response Model | Headers |
+| ---------------- | ------ | -------------- | ------- |
+| 403 | Forbidden |
+| 422 | Unprocessable Entity – Provided data could not be processed due to a validation error |
