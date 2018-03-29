@@ -1,5 +1,5 @@
 ---
-title: "A004: Professional Session Select Role"
+title: "A004: Retrieve Reference Data"
 keywords: endpoint, catalogue
 sidebar: overview_sidebar
 toc: false
@@ -8,62 +8,58 @@ summary: false
 ---
 
 ## API
-[POST /v1/ProfessionalSession](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession)
+[GET /v1/ValueSet/{valueSetId}](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ValueSet/valueSetId)
 
 ## Description
-Creates a Professional Session in the Spine using smartcard roles. This gives a secure login.
+This read-only API lets a user access a pre-populated list of reference data. The NHS e-Referral Service uses these lists throughout. For example, a list of specialities. They support data accuracy and effective re-use. It retrieves a specific Value Set (Reference Dataset) by ID.
 
 ## Input
-[Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/)
+Applicable values for the {valueSetId}:
 
-Provide only a token when first creating a session.
-
-### Example
-```javascript
-{
- "token": "<token id>"
-}
-```
+|Value Set ID|Description|
+|---|---|
+|REQUEST_PRIORITY|Request Priorities defined in e-RS.|
+|SPECIALTY|Specialties defined in e-RS. Also returns applicable Clinic Types as sub-concepts (categorized by Specialty).|
+|CLINIC_TYPE|Clinic Types defined in e-RS.|
+|REQUEST_TYPE|Request Types defined in e-RS.|
+|COMMISSIONING_TYPE|Commissioning Types defined in e-RS.|
 
 ## Output
-The created [Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/) will be returned with available user permissions populated.
+A [Value Set Resource](explore_models.html) profiled specifically for the given valueSetId. This will include the requested coding system with its available codes.
 
 ## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](https://developer.nhs.uk/library/systems/e-rs/ecosystem/develop/code/) for further details.
 
 ```javascript
-function createSession(tokenCode, entryUrl) {
-     scope.entryUrl = entryUrl;
-     var json = {
-         token: tokenCode
-     };
-     var deferred = $q.defer();
- 
-     var headersJson = {};
-     headersJson[config.asidHeader] = config.asid;
- 
-     var rest = $resource(
-             config.baseUrl + '/v1/ProfessionalSession',
-             null,
-             {'save': {method: 'POST', headers: headersJson}}
-     );
-     rest.save(json, function (data) {
-         scope.sessionData = data;
-         scope.currentSessionId = data.id;
-         deferred.resolve(data);
-     });
-     return deferred.promise;
- }
+angular.module('ers-consumer-exampleApp')
+  .service('referenceDataService', function ($q, $resource, config, session) {
+
+    function getRefData(valueSetId) {
+        var deferred = $q.defer();
+        var sessionId = session.getId();
+
+        var headersJson = {};
+        headersJson[config.asidHeader] = config.asid;
+        headersJson[config.sessionIdHeader] = sessionId;
+
+        var refData = $resource(config.baseUrl + '/v1/ValueSet/' + valueSetId,
+            null,
+            {get: {method: 'GET', headers: headersJson}}
+        );
+        refData.get(function(data) {
+            deferred.resolve(data);
+        }, function() {
+            deferred.reject();
+        });
+
+        return deferred.promise;
+    }
+
+    return {
+        getRefData: getRefData
+    };
+  });
 ```
 
 ## Notes
-Once the session has been created a list of applicable permissions for the user will be returned. The session will not be usable until a permission/role has been selected using the Select Role endpoint.
-
-The ProffessionalSession.id returned should be included as a header (HTTP_X_SESSION_KEY) for all subsequent requests.
-
-### Response Messages
-
-HTTP Status Code | Reason | Response Model | Headers
----------------- | ------ | -------------- | -------
-403 | Forbidden
-422 | Unprocessable Entity – Provided data could not be processed due to a validation error.
+Consuming application must have a valid session in order to access this endpoint.
