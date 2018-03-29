@@ -8,7 +8,7 @@ summary: false
 ---
 
 ## API
-[DELETE /v1/ProfessionalSession/{sessionKey}](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/professionalsession/deleteProfessionalSessionUsingDELETE)
+[DELETE /v1/ProfessionalSession/{sessionKey}](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/pro-xapi-session_94414701-70d0-4570-a674-f6f2125ab571)
 
 ## Description
 Logs out of the Professional Session and closes the dialogue.
