@@ -54,13 +54,13 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Overview
+        - title: "- Overview"
           url: /explore_endpoint_catalogue.html
           output: web
-        - title: A001 Create Professional Session
+        - title: "- A001 Create Professional Session"
           url: /explore_endpoint_a001.html
           output: web
-        - title: A002 Professional Session Select Role
+        - title: "- A002 Professional Session Select Role"
           url: /explore_endpoint_a002.html
           output: web
 
