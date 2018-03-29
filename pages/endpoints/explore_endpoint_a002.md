@@ -3,7 +3,7 @@ title: A002 Professional Session Select Role
 keywords: endpoint, catalogue
 sidebar: overview_sidebar
 toc: false
-permalink: /explore_endpoint_a002.html
+permalink: explore_endpoint_a002.html
 summary: false
 ---
 
