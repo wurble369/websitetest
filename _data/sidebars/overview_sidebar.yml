@@ -50,16 +50,16 @@ entries:
       output: web
 
       subfolders:
-    - title: Endpoint Catalogue
-      output: web
-      subfolderitems:
+      - title: Endpoint Catalogue
+        output: web
+        subfolderitems:
 
-      - title: Overview
-        url: /explore_endpoint_catalogue.html
-        output: web
-      - title: A001
-        url: explore_endpoint_a001.html
-        output: web
+        - title: Overview
+          url: /explore_endpoint_catalogue.html
+          output: web
+        - title: A001
+          url: explore_endpoint_a001.html
+          output: web
 
     - title: Standard Resources
       url: /explore_resources.html
@@ -99,7 +99,7 @@ entries:
   - title: Deploy
     output: web
     folderitems:
-      
+
     - title: Release Methodology
       url: /deploy_release_methodology.html
       output: web
