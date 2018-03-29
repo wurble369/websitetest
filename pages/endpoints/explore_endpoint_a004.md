@@ -28,7 +28,7 @@ Applicable values for the {valueSetId}:
 A [Value Set Resource](explore_models.html) profiled specifically for the given valueSetId. This will include the requested coding system with its available codes.
 
 ## Code Sample
-Code snippets taken from the consumer example. See [Code Samples](https://developer.nhs.uk/library/systems/e-rs/ecosystem/develop/code/) for further details.
+Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
 ```javascript
 angular.module('ers-consumer-exampleApp')
