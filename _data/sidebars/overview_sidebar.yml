@@ -45,10 +45,10 @@ entries:
     - title: API Environments
       url: /explore_api_environments.html
       output: web
-    - title: Endpoint Catalogue
-      output: web
       subfolders:
 
+    - title: Endpoint Catalogue
+      output: web
       subfolderitems:
       - title: Overview
         url: /explore_endpoint_catalogue.html
@@ -89,7 +89,7 @@ entries:
     - title: Path-To-Live
       url: /assure_path_to_live.html
       output: web
-      
+
   - title: Deploy
     output: web
     folderitems:
