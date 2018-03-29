@@ -1,5 +1,5 @@
 ---
-title: "A007: Professional Session Select Role"
+title: "A007: Retrieve Clinical Information"
 keywords: endpoint, catalogue
 sidebar: overview_sidebar
 toc: false
@@ -8,62 +8,33 @@ summary: false
 ---
 
 ## API
-[POST /v1/ProfessionalSession](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession)
+[/v1/Binary/$ers.generateCRI](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/Binary/$ers.generateCRI?UBRN=UBRN)
 
 ## Description
-Creates a Professional Session in the Spine using smartcard roles. This gives a secure login.
+This API lets users create a real-time Portable Document Format (PDF) of the referral. This is suitable for integration into a 3rd party system. You can find the Clinical Information for a referral request using a UBRN.
 
 ## Input
-[Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/)
-
-Provide only a token when first creating a session.
-
-### Example
-```javascript
-{
- "token": "<token id>"
-}
-```
+UBRN.
 
 ## Output
-The created [Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/) will be returned with available user permissions populated.
+To follow.
 
 ## Code Sample
-Code snippets taken from the consumer example. See [Code Samples](https://developer.nhs.uk/library/systems/e-rs/ecosystem/develop/code/) for further details.
+Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
-```javascript
-function createSession(tokenCode, entryUrl) {
-     scope.entryUrl = entryUrl;
-     var json = {
-         token: tokenCode
-     };
-     var deferred = $q.defer();
- 
-     var headersJson = {};
-     headersJson[config.asidHeader] = config.asid;
- 
-     var rest = $resource(
-             config.baseUrl + '/v1/ProfessionalSession',
-             null,
-             {'save': {method: 'POST', headers: headersJson}}
-     );
-     rest.save(json, function (data) {
-         scope.sessionData = data;
-         scope.currentSessionId = data.id;
-         deferred.resolve(data);
-     });
-     return deferred.promise;
- }
-```
+To follow.
 
 ## Notes
-Once the session has been created a list of applicable permissions for the user will be returned. The session will not be usable until a permission/role has been selected using the Select Role endpoint.
+Get the Clinical Referral Information for a Referral Request identified by the given UBRN.
 
-The ProffessionalSession.id returned should be included as a header (HTTP_X_SESSION_KEY) for all subsequent requests.
+### Parameters
+| Parameter | Value | Description | Parameter Type | Data Type |
+| --------- | ----- | ----------- | -------------- | --------- |
+| UBRN |   | UBRN | Query | String |
 
 ### Response Messages
-
-HTTP Status Code | Reason | Response Model | Headers
----------------- | ------ | -------------- | -------
-403 | Forbidden
-422 | Unprocessable Entity – Provided data could not be processed due to a validation error.
+| HTTP Status Code | Reason |
+| ---------------- | ------ |
+| 200 | OK |
+| 403 | Forbidden |
+| 404 | Not Found |
