@@ -45,7 +45,7 @@ entries:
       output: web
     - title: Endpoint Catalogue
       output: web
-      folderitems:
+      subfolderitems:
       - title: Overview
         url: /explore_endpoint_catalogue.html
         output: web
