@@ -57,8 +57,8 @@ entries:
         - title: Overview
           url: /explore_endpoint_catalogue.html
           output: web
-        - title: A001
-          url: explore_endpoint_a001.html
+        - title: A001 Create Professional Session
+          url: /explore_endpoint_a001.html
           output: web
 
     - title: Standard Resources
