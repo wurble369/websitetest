@@ -14,7 +14,7 @@ summary: false
 Updates a Professional Session with the appropriate NHS organisation and role. This ensures the correct access rights for the user.
 
 ## Input
-[Professional Session Resource](/explore_models.html)
+[Professional Session Resource](explore_models.html)
 
 The base input for this endpoint should be the output from the Create Session endpoint. The consumer should then additionally populate the permission field with the permission they wish to select from those available to the user (ProfessionalSession.user.permissions).
 
@@ -54,10 +54,10 @@ The base input for this endpoint should be the output from the Create Session en
 ```
 
 ## Output
-The created [Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/) will be returned with with the selected permission applied.
+The created [Professional Session Resource](explore_models.html) will be returned with with the selected permission applied.
 
 ## Code Sample
-Code snippets taken from the consumer example. See [Code Samples](/develop_code_samples.html) for further details.
+Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
 ```javascript
 function selectRole(permission) {
