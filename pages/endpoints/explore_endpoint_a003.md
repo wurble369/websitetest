@@ -1,5 +1,5 @@
 ---
-title: "A003: Professional Session Select Role"
+title: "A003: Delete Professional Session"
 keywords: endpoint, catalogue
 sidebar: overview_sidebar
 toc: false
@@ -8,62 +8,54 @@ summary: false
 ---
 
 ## API
-[POST /v1/ProfessionalSession](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession)
+[DELETE /v1/ProfessionalSession/{sessionKey}](http://api-ers.spine2.ncrs.nhs.uk:88/swagger-ui/#!/professionalsession/deleteProfessionalSessionUsingDELETE)
 
 ## Description
-Creates a Professional Session in the Spine using smartcard roles. This gives a secure login.
+Logs out of the Professional Session and closes the dialogue.
 
 ## Input
-[Professional Session Resource](/explore_models.html)
-
-Provide only a token when first creating a session.
+The Session ID / Key of the session to be deleted should be provided as the sessionKey path parameter. The Session ID is that returned in ProfessionalSession.id.
 
 ### Example
 ```javascript
-{
- "token": "<token id>"
-}
+DELETE http://<baseUrl>/v1/ProfessionalSession/pro-xapi-session_053
 ```
 
 ## Output
-The created [Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/) will be returned with available user permissions populated.
+If successful the response code 204 (No Content) is returned. This response has no body.
 
 ## Code Sample
-Code snippets taken from the consumer example. See [Code Samples](https://developer.nhs.uk/library/systems/e-rs/ecosystem/develop/code/) for further details.
+Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
 ```javascript
-function createSession(tokenCode, entryUrl) {
-     scope.entryUrl = entryUrl;
-     var json = {
-         token: tokenCode
-     };
-     var deferred = $q.defer();
- 
-     var headersJson = {};
-     headersJson[config.asidHeader] = config.asid;
- 
-     var rest = $resource(
-             config.baseUrl + '/v1/ProfessionalSession',
-             null,
-             {'save': {method: 'POST', headers: headersJson}}
-     );
-     rest.save(json, function (data) {
-         scope.sessionData = data;
-         scope.currentSessionId = data.id;
-         deferred.resolve(data);
-     });
-     return deferred.promise;
- }
+function deleteSession() {
+    var deferred = $q.defer();
+
+    var headersJson = {};
+    headersJson[config.asidHeader] = config.asid;
+    headersJson[config.sessionIdHeader] = scope.sessionData.id;
+
+    var rest = $resource(
+            config.baseUrl + '/v1/ProfessionalSession/' + scope.currentSessionId,
+            null,
+            {'delete': {method: 'DELETE', headers: headersJson}}
+    );
+    rest.delete(function() {
+        deferred.resolve(true);
+        scope.currentSessionId = null;
+    }, function() {
+        deferred.reject();        
+    });
+
+    return deferred.promise;
+}
 ```
 
 ## Notes
-Once the session has been created a list of applicable permissions for the user will be returned. The session will not be usable until a permission/role has been selected using the Select Role endpoint.
+Consuming application must have a valid session in order to access this endpoint.
 
-The ProffessionalSession.id returned should be included as a header (HTTP_X_SESSION_KEY) for all subsequent requests.
+Used to delete a Professional Session after it has been created.
 
-### Response Messages
+Once deleted the associate Session ID will become invalid.
 
-HTTP Status Code | Reason | Response Model | Headers
----------------- | ------ | -------------- | -------
-403 | Forbidden
-422 | Unprocessable Entity – Provided data could not be processed due to a validation error.
+Session is initially created using the Create Session / Select Role endpoints.
