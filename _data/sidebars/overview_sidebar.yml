@@ -44,9 +44,10 @@ entries:
       url: /explore_api_environments.html
       output: web
     - title: Endpoint Catalogue
-      url: /explore_endpoint_catalogue.html
-      output: web
       folderitems:
+      - title: Overview
+        url: /explore_endpoint_catalogue.html
+        output: web
       - title: A001
         url: explore_endpoint_a001.html
         output: web
