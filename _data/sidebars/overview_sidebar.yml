@@ -46,6 +46,10 @@ entries:
     - title: Endpoint Catalogue
       url: /explore_endpoint_catalogue.html
       output: web
+      folderitems:
+      - title: A001
+        url: explore_endpoint_a001.html
+        output: web
     - title: Standard Resources
       url: /explore_resources.html
       output: web
