@@ -14,7 +14,7 @@ summary: false
 Creates a Professional Session in the Spine using smartcard roles. This gives a secure login.
 
 ## Input
-[Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/)
+[Professional Session Resource](/explore_models.html)
 
 Provide only a token when first creating a session.
 

@@ -14,7 +14,7 @@ summary: false
 Creates a Professional Session in the Spine using smartcard roles. This gives a secure login.
 
 ## Input
-[Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/)
+[Professional Session Resource](/explore_models.html)
 
 Provide only a token when first creating a session.
 
@@ -29,7 +29,7 @@ Provide only a token when first creating a session.
 The created [Professional Session Resource](https://developer.nhs.uk/library/systems/e-rs/ecosystem/explore/resources/professionalsession/) will be returned with available user permissions populated.
 
 ## Code Sample
-Code snippets taken from the consumer example. See [Code Samples](https://developer.nhs.uk/library/systems/e-rs/ecosystem/develop/code/) for further details.
+Code snippets taken from the consumer example. See [Code Samples](/develop_code_samples.html) for further details.
 
 ```javascript
 function createSession(tokenCode, entryUrl) {
@@ -59,7 +59,7 @@ function createSession(tokenCode, entryUrl) {
 ## Notes
 Once the session has been created a list of applicable permissions for the user will be returned. The session will not be usable until a permission/role has been selected using the Select Role endpoint.
 
-The ProffessionalSession.id returned should be included as a header (HTTP_X_SESSION_KEY) for all subsequent requests.
+The ProfessionalSession.id returned should be included as a header (HTTP_X_SESSION_KEY) for all subsequent requests.
 
 ### Response Messages
 
