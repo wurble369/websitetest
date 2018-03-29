@@ -1,5 +1,5 @@
 ---
-title: A011: Professional Session Select Role
+title: A011 Professional Session Select Role
 keywords: endpoint, catalogue
 sidebar: overview_sidebar
 toc: false
