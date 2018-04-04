@@ -4,7 +4,7 @@ keywords: endpoint, catalogue
 sidebar: overview_sidebar
 toc: false
 permalink: /explore_endpoint_catalogue.html
-summary: "Catalogue of all API endpoints"
+summary: "Catalogue of all external e-RS API endpoints"
 ---
 
 |Id|Name|Family|Verb|URI|
