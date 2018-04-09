@@ -28,11 +28,13 @@ To follow.
 Get the Attachment identified by the given Referral Request Id and Attachment Id.
 
 ### Parameters
+
 | Parameter | Value | Description | Parameter Type | Data Type |
 | --------- | ----- | ----------- | -------------- | --------- |
 | referralRequestAttachmentId |   | Referral Request Attachment Id | Path | String |
 
 ### Response Messages
+
 | HTTP Status Code | Reason |
 | ---------------- | ------ |
 | 200 | OK |

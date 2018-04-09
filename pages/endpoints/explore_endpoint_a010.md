@@ -37,5 +37,6 @@ Code snippets taken from the consumer example. See [Code Samples](https://devel
 TODO
 
 ### Response Messages
+
 HTTP Status Code | Reason | Response Model | Headers
 ---------------- | ------ | -------------- | -------

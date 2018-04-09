@@ -28,11 +28,13 @@ To follow.
 Get the Clinical Referral Information for a Referral Request identified by the given UBRN.
 
 ### Parameters
+
 | Parameter | Value | Description | Parameter Type | Data Type |
 | --------- | ----- | ----------- | -------------- | --------- |
 | UBRN |   | UBRN | Query | String |
 
 ### Response Messages
+
 | HTTP Status Code | Reason |
 | ---------------- | ------ |
 | 200 | OK |
