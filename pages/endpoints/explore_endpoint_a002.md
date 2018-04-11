@@ -11,7 +11,7 @@ summary: false
 
 | Request Type | URL |
 | -------------| --- |
-| PUT | [/v1/ProfessionalSession/{sessionKey}](https://api.environment.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/{sessionKey})
+| PUT | [/v1/ProfessionalSession/{sessionKey}](https://api.{env}.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/{sessionKey})
 
 ## Description
 Updates a Professional Session with the appropriate NHS organisation and role. This ensures the correct access rights for the user.
@@ -19,18 +19,20 @@ Updates a Professional Session with the appropriate NHS organisation and role. T
 ## Input
 The base input for this endpoint should be the output from the Create Session endpoint. The consumer should then additionally populate the permission field with the permission they wish to select from those available to the user (`ProfessionalSession.user.permissions`).
 
-*Header:* Provide ASID of the end-point system and equivalent Session Key generated for the SSO Token-ID.
+### Header
+Provide ASID of the end-point system and equivalent Session Key generated for the SSO Token-ID.
 
-### Example
+#### Example
 ```http
 XAPI_ASID:200000000220
 Content-Type:application/json
 HTTP_X_SESSION_KEY: pro-xapi-session_222c42c7-820f-4f9b-92fb-3add4b1db9f7
 ```
 
-*Body:* Provide token and permission fields when selecting a role.
+### Body
+Provide token and permission fields when selecting a role.
 
-### Example
+#### Example
 ```javascript
 {
   "typeInfo": "uk.nhs.ers.xapi.dto.v1.session.ProfessionalSession",
@@ -44,7 +46,7 @@ The created [Professional Session Resource](explore_models.html) is returned wit
 
 The response code `200 (OK)` is returned.
 
-### Example
+#### Example
 ```javascript
 {
     "typeInfo": "uk.nhs.ers.xapi.dto.v1.session.ProfessionalSession",

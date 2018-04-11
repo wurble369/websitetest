@@ -8,7 +8,10 @@ summary: false
 ---
 
 ## API
-[DELETE /v1/ProfessionalSession/{sessionKey}](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/pro-xapi-session_94414701-70d0-4570-a674-f6f2125ab571)
+
+| Request Type | URL |
+| -------------| --- |
+| DELETE | [/v1/ProfessionalSession/{sessionKey}](https://api.{env}.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/{{sessionKey}})
 
 ## Description
 Logs out of the Professional Session and closes the dialogue.
