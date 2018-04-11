@@ -37,7 +37,50 @@ Provide only a token when first creating a session.
 ```
 
 ## Output
-The created [Professional Session Resource](explore_models.html) will be returned with available user permissions populated.
+The created [Professional Session Resource](explore_models.html) is returned with available user permissions populated. The response code 201 (Created) is returned.
+
+### Example
+```javascript
+{
+    "typeInfo": "uk.nhs.ers.xapi.dto.v1.session.ProfessionalSession",
+    "id": "pro-xapi-session_222c42c7-820f-4f9b-92fb-3add4b1db9f7",
+    "token": "AQIC5wM2LY4Sfcyw62EbAOsRpdfbGYUOyvkfZ4M6U7W52lM=@AAJTSQACMDE=#",
+    "user": {
+        "identifier": "555020964101",
+        "firstName": "SA Assurance",
+        "lastName": "GP-Card",
+        "middleName": null,
+        "permissions": [
+            {
+                "businessFunction": "REFERRING_CLINICIAN",
+                "orgIdentifier": "R01",
+                "orgName": "NHST_X3"
+            },
+            {
+                "businessFunction": "REFERRING_CLINICIAN_ADMIN",
+                "orgIdentifier": "R01",
+                "orgName": "NHST_X3"
+            },
+            {
+                "businessFunction": "SERVICE_DEFINER",
+                "orgIdentifier": "R01",
+                "orgName": "NHST_X3"
+            },
+            {
+                "businessFunction": "SERVICE_PROVIDER_CLINICIAN",
+                "orgIdentifier": "R01",
+                "orgName": "NHST_X3"
+            },
+            {
+                "businessFunction": "SERVICE_PROVIDER_CLINICIAN_ADMIN",
+                "orgIdentifier": "R01",
+                "orgName": "NHST_X3"
+            }
+        ]
+    },
+    "permission": null
+}
+```
 
 ## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
@@ -76,5 +119,6 @@ The ProfessionalSession.id returned should be included as a header (HTTP_X_SESSI
 
 | HTTP Status Code | Reason | Response Model | Headers |
 | ---------------- | ------ | -------------- | ------- |
+| 201 | Created |
 | 403 | Forbidden |
 | 422 | Unprocessable Entity – Provided data could not be processed due to a validation error |
