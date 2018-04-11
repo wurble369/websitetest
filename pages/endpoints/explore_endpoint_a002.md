@@ -46,7 +46,7 @@ The created [Professional Session Resource](explore_models.html) is returned wit
 
 The response code `200 (OK)` is returned.
 
-#### Example
+#### Example
 ```javascript
 {
     "typeInfo": "uk.nhs.ers.xapi.dto.v1.session.ProfessionalSession",
