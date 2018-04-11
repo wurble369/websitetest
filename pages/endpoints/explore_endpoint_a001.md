@@ -27,15 +27,6 @@ Accept-Encoding:gzip,deflate
 Content-Type:application/json
 ```
 
-Provide only a token when first creating a session.
-
-### Example
-```javascript
-{
- "token": "<token id>"
-}
-```
-
 ## Output
 The created [Professional Session Resource](explore_models.html) is returned with available user permissions populated. The response code 201 (Created) is returned.
 
