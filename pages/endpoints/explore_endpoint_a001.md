@@ -29,7 +29,7 @@ Accept-Encoding:gzip,deflate
 Content-Type:application/json
 ```
 
-### Body
+### Body
 Provide only a token when first creating a session.
 
 #### Example
