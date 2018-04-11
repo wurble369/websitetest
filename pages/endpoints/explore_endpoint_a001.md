@@ -18,7 +18,7 @@ Creates a Professional Session in the Spine using smartcard roles. This gives a 
 
 ## Input
 
-### Body
+### Header
 Provide ASID for the end-point system.
 
 #### Example
