@@ -8,6 +8,7 @@ summary: false
 ---
 
 ## API
+
 | Request Type | URL |
 | -------------| --- |
 | POST | [/v1/ProfessionalSession](https://api.environment.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession)
