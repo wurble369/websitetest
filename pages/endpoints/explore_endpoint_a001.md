@@ -17,7 +17,15 @@ summary: false
 Creates a Professional Session in the Spine using smartcard roles. This gives a secure login.
 
 ## Input
-[Professional Session Resource](explore_models.html)
+Provide ASID for the end-point system.
+
+Example
+```http
+XAPI_ASID:200000000220
+Accept:application/json
+Accept-Encoding:gzip,deflate
+Content-Type:application/json
+```
 
 Provide only a token when first creating a session.
 
