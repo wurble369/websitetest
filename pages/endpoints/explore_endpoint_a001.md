@@ -19,7 +19,7 @@ Creates a Professional Session in the Spine using smartcard roles. This gives a 
 ## Input
 Provide ASID for the end-point system.
 
-Example
+### Example
 ```http
 XAPI_ASID:200000000220
 Accept:application/json
