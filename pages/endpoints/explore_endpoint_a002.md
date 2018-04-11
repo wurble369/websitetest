@@ -8,53 +8,88 @@ summary: false
 ---
 
 ## API
-[PUT /v1/ProfessionalSession/{sessionKey}](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/pro-xapi-session_94414701-70d0-4570-a674-f6f2125ab571)
+
+| Request Type | URL |
+| -------------| --- |
+| PUT | [/v1/ProfessionalSession/{sessionKey}](https://api.environment.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/{{sessionKey}})
 
 ## Description
 Updates a Professional Session with the appropriate NHS organisation and role. This ensures the correct access rights for the user.
 
 ## Input
-[Professional Session Resource](explore_models.html)
+The base input for this endpoint should be the output from the Create Session endpoint. The consumer should then additionally populate the permission field with the permission they wish to select from those available to the user (`ProfessionalSession.user.permissions`).
 
-The base input for this endpoint should be the output from the Create Session endpoint. The consumer should then additionally populate the permission field with the permission they wish to select from those available to the user (ProfessionalSession.user.permissions).
+*Header:* Provide ASID of the end-point system and equivalent Session Key generated for the SSO Token-ID.
+
+### Example
+```http
+XAPI_ASID:200000000220
+Content-Type:application/json
+HTTP_X_SESSION_KEY: pro-xapi-session_222c42c7-820f-4f9b-92fb-3add4b1db9f7
+```
+
+*Body:* Provide token and permission fields when selecting a role.
 
 ### Example
 ```javascript
 {
-    "id": "pro-xapi-session_0537f534-5c9a-4240-a401-90c9b7770139",
-    "token": "<token id>",
-    "user": {
-        "identifier": "021600556514",
-        "firstName": "Tech",
-        "lastName": "Support",
-        "middleName": null,
-        "permissions": [
-        {
-            "businessFunction": "REFERRING_CLINICIAN_ADMIN",
-            "orgIdentifier": "R68",
-            "orgName": "BTL NHS TRUST R68"
-        },
-        {
-            "businessFunction": "REFERRING_CLINICIAN",
-            "orgIdentifier": "R69",
-            "orgName": "BTL NHS TRUST R69"
-        },
-        {
-            "businessFunction": "REFERRING_CLINICIAN_ADMIN",
-            "orgIdentifier": "R69",
-            "orgName": "BTL NHS TRUST R69"
-        }]
-    },
-    "permission": {
-        "businessFunction": "REFERRING_CLINICIAN",
-        "orgIdentifier": "R69",
-        "orgName": "BTL NHS TRUST R69"
-    }
+  "typeInfo": "uk.nhs.ers.xapi.dto.v1.session.ProfessionalSession",
+  "token": "AQIC5wM2LY4Sfcyw62EbAOsRpdfbGYUOyvkfZ4M6U7W52lM=@AAJTSQACMDE=#"
+"permission":{"businessFunction":"SERVICE_PROVIDER_CLINICIAN", "orgIdentifier":"R01"}
 }
 ```
 
 ## Output
-The created [Professional Session Resource](explore_models.html) will be returned with with the selected permission applied.
+The created [Professional Session Resource](explore_models.html) is returned with the selected permission applied.
+
+The response code `200 (OK)` is returned.
+
+### Example
+```javascript
+{
+    "typeInfo": "uk.nhs.ers.xapi.dto.v1.session.ProfessionalSession",
+    "id": "pro-xapi-session_94414701-70d0-4570-a674-f6f2125ab571",
+    "token": "AQIC5wM2LY4Sfcy/V7hKhbk2t0fqyvCmHCBhnjZq0TjqBYw=@AAJTSQACMDE=#",
+    "user": {
+        "identifier": "555020964101",
+        "firstName": "SA Assurance",
+        "lastName": "GP-Card",
+        "middleName": null,
+        "permissions": [
+            {
+                "businessFunction": "REFERRING_CLINICIAN",
+                "orgIdentifier": "R01",
+                "orgName": " NHST_X3"
+            },
+            {
+                "businessFunction": "REFERRING_CLINICIAN_ADMIN",
+                "orgIdentifier": "R01",
+                "orgName": " NHST_X3"
+            },
+            {
+                "businessFunction": "SERVICE_DEFINER",
+                "orgIdentifier": "R01",
+                "orgName": " NHST_X3"
+            },
+            {
+                "businessFunction": "SERVICE_PROVIDER_CLINICIAN",
+                "orgIdentifier": "R01",
+                "orgName": " NHST_X3"
+            },
+            {
+                "businessFunction": "SERVICE_PROVIDER_CLINICIAN_ADMIN",
+                "orgIdentifier": "R01",
+                "orgName": " NHST_X3"
+            }
+        ]
+    },
+    "permission": {
+        "businessFunction": "SERVICE_PROVIDER_CLINICIAN",
+        "orgIdentifier": "R01",
+        "orgName": " NHST_X3"
+    }
+}
+```
 
 ## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
