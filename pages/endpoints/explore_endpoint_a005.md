@@ -28,7 +28,7 @@ HTTP_X_SESSION_KEY:{{sessionKey}}
 ```
 
 ## Output
-If successful referral details are returned. The response code `200 (OK) is returned.
+If successful referral details are returned. The response code `200 (OK)` is returned.
 
 #### Example
 ```javascript
