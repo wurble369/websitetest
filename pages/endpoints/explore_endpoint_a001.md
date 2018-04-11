@@ -17,9 +17,11 @@ summary: false
 Creates a Professional Session in the Spine using smartcard roles. This gives a secure login.
 
 ## Input
+
+### Body
 Provide ASID for the end-point system.
 
-### Example
+#### Example
 ```http
 XAPI_ASID:200000000220
 Accept:application/json
@@ -27,12 +29,23 @@ Accept-Encoding:gzip,deflate
 Content-Type:application/json
 ```
 
+### Body
+Provide only a token when first creating a session.
+
+#### Example
+```javascript
+{
+ "typeInfo": "uk.nhs.ers.xapi.dto.v1.session.ProfessionalSession",
+ "token": " AQIC5wM2LY4Sfcyw62EbAOsRpdfbGYUOyvkfZ4M6U7W52lM=@AAJTSQACMDE=#"
+}
+```
+
 ## Output
 The created [Professional Session Resource](explore_models.html) is returned with available user permissions populated.
 
 The response code `201 (Created)` is returned.
 
-### Example
+#### Example
 ```javascript
 {
     "typeInfo": "uk.nhs.ers.xapi.dto.v1.session.ProfessionalSession",
