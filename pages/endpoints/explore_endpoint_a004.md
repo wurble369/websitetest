@@ -33,7 +33,7 @@ Provide ASID of the end-point system and equivalent Session Key generated for th
 ```http
 XAPI_ASID:200000000220
 Content-Type:application/json+fhir
-HTTP_X_SESSION_KEY:{{sessionKey
+HTTP_X_SESSION_KEY:{sessionKey}
 ```
 
 ## Output
