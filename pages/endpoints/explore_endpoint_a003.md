@@ -11,17 +11,21 @@ summary: false
 
 | Request Type | URL |
 | -------------| --- |
-| DELETE | [/v1/ProfessionalSession/{sessionKey}](https://api.{env}.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/{{sessionKey}})
+| DELETE | [/v1/ProfessionalSession/{sessionKey}](https://api.{env}.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/{sessionKey})
 
 ## Description
 Logs out of the Professional Session and closes the dialogue.
 
 ## Input
-The Session ID / Key of the session to be deleted should be provided as the sessionKey path parameter. The Session ID is that returned in ProfessionalSession.id.
+The Session ID / Key of the session to be deleted should be provided as the sessionKey path parameter. The Session ID is that returned in `ProfessionalSession.id`.
 
-### Example
-```javascript
-DELETE http://<baseUrl>/v1/ProfessionalSession/pro-xapi-session_053
+### Header
+Provide ASID of the end-point system and equivalent Session Key generated for the SSO Token-ID.
+
+#### Example
+```http
+XAPI_ASID:200000000220
+HTTP_X_SESSION_KEY:{{sessionKey}}
 ```
 
 ## Output
