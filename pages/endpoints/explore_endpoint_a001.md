@@ -8,7 +8,9 @@ summary: false
 ---
 
 ## API
-[POST /v1/ProfessionalSession](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession)
+| Request Type | URL |
+| -------------| --- |
+| POST | [/v1/ProfessionalSession](https://api.environment.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession)
 
 ## Description
 Creates a Professional Session in the Spine using smartcard roles. This gives a secure login.
