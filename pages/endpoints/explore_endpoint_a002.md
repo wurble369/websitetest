@@ -7,13 +7,11 @@ permalink: explore_endpoint_a002.html
 summary: false
 ---
 
-TEST
-
 ## API
 
 | Request Type | URL |
 | -------------| --- |
-| PUT | [/v1/ProfessionalSession/{sessionKey}](https://api.environment.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/{{sessionKey}})
+| PUT | [/v1/ProfessionalSession/{sessionKey}](https://api.environment.ers.ncrs.nhs.uk/ers-api/v1/ProfessionalSession/{sessionKey})
 
 ## Description
 Updates a Professional Session with the appropriate NHS organisation and role. This ensures the correct access rights for the user.
