@@ -8,21 +8,31 @@ summary: false
 ---
 
 ## API
-[GET /v1/Binary/att-{referralRequestAttachmentId}](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/Binary/url)
+
+| Request Type | URL |
+| -------------| --- |
+| GET | [/v1/Binary/att-{referralRequestAttachmentId}](https://api.{{env}}.ers.ncrs.nhs.uk/ers-api/v1/Binary/att-{referralRequestAttachmentId})
 
 ## Description
-This lets users retrieve and download linked files for a referral. Identify the file using both the request and attachment identifier.
+This API lets users retrieve and download linked files for a referral. Identify the file using both the request and attachment identifier.
 
 ## Input
-URL.
+
+### Header
+Provide ASID of the end-point system and equivalent Session Key generated for the SSO Token-ID.
+
+#### Example
+```http
+XAPI_ASID:200000000220
+HTTP_X_SESSION_KEY:{sessionKey}
+Accept:*/*
+```
 
 ## Output
-To follow.
+If successful file content linked to the referral is returned. The response code `200 (OK)` is returned.
 
 ## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
-
-To follow.
 
 ## Notes
 Get the Attachment identified by the given Referral Request Id and Attachment Id.
