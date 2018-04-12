@@ -18,7 +18,7 @@ This API lets users retrieve and download linked files for a referral. Identify 
 
 ## Input
 
-### Header
+### Header
 Provide ASID of the end-point system and equivalent Session Key generated for the SSO Token-ID.
 
 #### Example
