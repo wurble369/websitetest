@@ -31,7 +31,7 @@ Content-Type:application/json+fhir
 ### Body
 Provide ‘Referrals for Review’ worklist parameter.
 
-#### Example
+#### Example
 ```javascript
 {
    "resourceType":"Parameters",
