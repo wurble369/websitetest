@@ -11,7 +11,7 @@ summary: false
 
 | Request Type | URL |
 | -------------| --- |
-| GET | [/v1/ReferralRequest/{id}](https://api.{{env}}.ers.ncrs.nhs.uk/ers-api/v1/ReferralRequest/{UBRN})
+| GET | [/v1/ReferralRequest/{id}](https://api.{env}.ers.ncrs.nhs.uk/ers-api/v1/ReferralRequest/{UBRN})
 
 ## Description
 This API gets the referral request identified by the given ID. For each new referral, the user will be able to get key data attributes. External systems can show these in their system. The user can then see status and content header info.

@@ -11,7 +11,7 @@ summary: false
 
 | Request Type | URL |
 | -------------| --- |
-| GET [/v1/Binary/$ers.generateCRI?UBRN={UBRN}](https://api.{{env}}.ers.ncrs.nhs.uk/ers-api/v1/Binary/$ers.generateCRI?UBRN={UBRN})
+| GET [/v1/Binary/$ers.generateCRI?UBRN={UBRN}](https://api.{env}.ers.ncrs.nhs.uk/ers-api/v1/Binary/$ers.generateCRI?UBRN={UBRN})
 
 ## Description
 This API lets users create a real-time Portable Document Format (PDF) of the referral. This is suitable for integration into a 3rd party system. You can find the Clinical Information for a referral request using a UBRN.
