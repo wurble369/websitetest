@@ -18,10 +18,10 @@ This API lets authorised users retrieve the ‘Referrals for Review’ work list
 
 ## Input
 
-### Header
+### Header
 Provide ASID of the end-point system and equivalent Session Key generated for the SSO Token-ID.
 
-#### Example
+#### Example
 ```http
 XAPI_ASID:200000000220
 HTTP_X_SESSION_KEY:{{sessionKey}}
@@ -192,3 +192,5 @@ TODO
 
 HTTP Status Code | Reason | Response Model | Headers
 ---------------- | ------ | -------------- | -------
+403	| Forbidden |
+422	| Unprocessable Entity – Provided data could not be processed due to a validation error. |
