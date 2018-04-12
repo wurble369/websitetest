@@ -224,4 +224,4 @@ Example
 ```
 
 ## Code Sample
-Refer to `API Client Demonstrator tool` source code.
+Refer to the `API Client Demonstrator tool` source code.
