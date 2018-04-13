@@ -7,36 +7,65 @@ permalink: explore_endpoint_a014.html
 summary: false
 ---
 
-# TODO
-
 ## API
-[POST /v1/ReferralRequest/UBRN/$ers.reject](https://api.dev1.ers.ncrs.nhs.uk/ers-api/v1/ReferralRequest/UBRN/$ers.reject)
+
+| Request Type | URL |
+| -------------| --- |
+| POST | [/v1/ReferralRequest/{UBRN}/$ers.reject](https://api.{env}.ers.ncrs.nhs.uk/ers-api/v1/ReferralRequest/{UBRN}/$ers.reject)
 
 ## Description
-TODO
+This API lets the professional user reject the Referral with reject reason and comment.
 
 ## Input
-TODO
 
-### Example
+### Header
+Provide ASID for the end-point system, Session Key and VersionId.
+
+#### Example
+```http
+XAPI_ASID:200000000220
+HTTP_X_SESSION_KEY:{{sessionKey}}
+Accept:application/json+fhir
+If-Match: W/"n"
+```
+
+Note: `n` is the VersionId of the Referral and this can be retrieved by fetching the Referral details.
+
+### Body
+Provide reject details such as reject reason and reject comment.
+
+#### Example
 ```javascript
 {
+ "resourceType": "Parameters",
+ "meta": {
+        "versionId": "1",
+        "profile": ["http://fhir.nhs.net/OperationDefinition/ers-rejectreferral-operation-1"]
+    },
+ "parameter": [
+   {
+     "name": "reason",
+     "valueString": "OTHER"
+   },
+    {
+     "name": "comment",
+     "valueString": "Test"
+    }
+ ]
+}
+```
+
+Note: If it’s an IBS service, use below extra field:
+
+```javascript
+{
+"name": "cancelledInPas",
+"valueString": "true/false"
 }
 ```
 
 ## Output
-TODO
+If successful the referral is rejected. The response code `200 (OK)` is returned. This response has no body.
 
 ## Code Sample
-Code snippets taken from the consumer example. See [Code Samples](https://developer.nhs.uk/library/systems/e-rs/ecosystem/develop/code/) for further details.
-
-```javascript
-```
-
-## Notes
-TODO
-
-### Response Messages
-
-HTTP Status Code | Reason | Response Model | Headers
----------------- | ------ | -------------- | -------
+Refer to the `API Client Demonstrator tool` source code.
