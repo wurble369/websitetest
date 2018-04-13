@@ -17,9 +17,9 @@ summary: "Catalogue of all external e-RS API endpoints"
 |A006|[Retrieve Attachment](explore_endpoint_a006.html)|Clinical Referral Information|GET|/v1/Binary/att-{referralRequestAttachmentId|
 |A007|[Retrieve Clinical Information](explore_endpoint_a007.html)|Clinical Referral Information|GET|/v1/Binary/$ers.generateCRI|
 |A008|[Retrieve Worklist](explore_endpoint_a008.html)|Clinical Referral Information|GET|/v1/ReferralRequest/$ers.fetchworklist|
-|A009|[Directory Service Search](explore_endpoint_a009.html)|???|POST|/v1/HealthcareService/$dos.serviceSearch|
-|A010|[Patient Service Search](explore_endpoint_a010.html)|???|POST|/v1/HealthcareService/$patient.serviceSearch|
-|A011|[Create Referral Request Through Shortlist](explore_endpoint_a011.html)|???|POST|/v1/CreateReferral|
-|A012|[Upload Attachments](explore_endpoint_a012.html)|???|POST|/v1/ReferralRequest/{{UBRN}}/$ers.uploadReferralLetter|
-|A013|[Accept Referral](explore_endpoint_a013.html)|???|POST|/v1/ReferralRequest/{{UBRN}}/$ers.accept|
-|A014|[Reject Referral](explore_endpoint_a014.html)|???|POST|/v1/ReferralRequest/{{UBRN}}/$ers.reject|
+|A009|[Directory Service Search](explore_endpoint_a009.html)|Service Search|POST|/v1/HealthcareService/$dos.serviceSearch|
+|A010|[Patient Service Search](explore_endpoint_a010.html)|Service Search|POST|/v1/HealthcareService/$patient.serviceSearch|
+|A011|[Create Referral Request Through Shortlist](explore_endpoint_a011.html)|Referral Request|POST|/v1/CreateReferral|
+|A012|[Upload Attachments](explore_endpoint_a012.html)|Referral Request|POST|/v1/ReferralRequest/{{UBRN}}/$ers.uploadReferralLetter|
+|A013|[Accept Referral](explore_endpoint_a013.html)|Referral Request|POST|/v1/ReferralRequest/{{UBRN}}/$ers.accept|
+|A014|[Reject Referral](explore_endpoint_a014.html)|Referral Request|POST|/v1/ReferralRequest/{{UBRN}}/$ers.reject|
