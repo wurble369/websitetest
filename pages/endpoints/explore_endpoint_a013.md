@@ -32,7 +32,7 @@ If-Match: W/"n"
 Note: `n` is the VersionId of the Referral and this can be retrieved by fetching the Referral details.
 
 ## Output
-If successful the referral is accepted. The response code 200 (OK) is returned. This response has no body.
+If successful the referral is accepted. The response code `200 (OK)` is returned. This response has no body.
 
 ## Code Sample
 Refer to the `API Client Demonstrator tool` source code.

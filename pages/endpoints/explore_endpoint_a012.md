@@ -11,7 +11,7 @@ summary: false
 
 | Request Type | URL |
 | -------------| --- |
-| POST |  [/v1/ReferralRequest/{{UBRN}}/$ers.uploadReferralLetter](https://api.{env}.ers.ncrs.nhs.uk/ers-api/v1/ReferralRequest/{{UBRN}}/$ers.uploadReferralLetter)
+| POST |  [/v1/ReferralRequest/{UBRN}/$ers.uploadReferralLetter](https://api.{env}.ers.ncrs.nhs.uk/ers-api/v1/ReferralRequest/{{UBRN}}/$ers.uploadReferralLetter)
 
 ## Description
 This API lets the professional user upload attachments for the referral request that has already been created.
@@ -130,7 +130,7 @@ attachmentsToRemove is the attachment ID(s) you wish to remove (so, in this exam
 and attachmentsToInsert is the attachment you wish to insert (so in this example we would insert test1.txt)
 
 ## Output
-If successful the attachments are uploaded to the referral request. The response code 200 (OK) is returned. This response has no body.
+If successful the attachments are uploaded to the referral request. The response code `200 (OK)` is returned. This response has no body.
 
 ## Code Sample
 Refer to the `API Client Demonstrator tool` source code.
