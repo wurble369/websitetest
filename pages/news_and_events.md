@@ -12,10 +12,10 @@ techUK and NHS Digital are hosting two industry briefings. Join us in London or 
 
 The briefings will provide:
 
-* An update of NHS Digital’s work including the “paperless 2020” programmes commissioned by the National Information Board
-* An in-depth look at a number of NHS Digital’s development roadmaps and programme plans
-* A chance to ask questions of NHS Digital senior management leading development and service improvement programmes
-* A chance to share your perspectives with NHS Digital, techUK and colleagues across the health and social care digital Industry
+* An update of NHS Digital’s work including the “paperless 2020” programmes commissioned by the National Information Board.
+* An in-depth look at a number of NHS Digital’s development roadmaps and programme plans.
+* A chance to ask questions of NHS Digital senior management leading development and service improvement programmes.
+* A chance to share your perspectives with NHS Digital, techUK and colleagues across the health and social care digital Industry.
 * Introductions and signposting to further information, and opportunities to shape the development of NHS Digital’s services.
 
 [Wednesday 21 June 2017](http://www.techuk.org/events/briefing/item/10814-industry-briefing-with-nhs-digital)
