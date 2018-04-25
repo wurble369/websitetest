@@ -18,10 +18,10 @@ The briefings will provide:
 * A chance to share your perspectives with NHS Digital, techUK and colleagues across the health and social care digital Industry
 * Introductions and signposting to further information, and opportunities to shape the development of NHS Digital’s services.
 
-#### Wednesday 21 June 2017
+[Wednesday 21 June 2017](http://www.techuk.org/events/briefing/item/10814-industry-briefing-with-nhs-digital)
 Time: 13:00 – 16:30, Place: Leeds – Hilton City
 
-#### Wednesday 28 June 2017
+[Wednesday 28 June 2017](http://www.techuk.org/events/briefing/item/10815-industry-briefing-with-nhs-digital)
 Time: 10:00 – 14:00, Place:  London, 10 St Bride Street
 
 ## 21st April 2017 – NHS e-Referral Service Integration Roadmap
