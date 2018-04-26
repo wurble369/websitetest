@@ -7,6 +7,20 @@ toc: false
 summary: "News and events related to the e-RS APIs"
 ---
 
+## Webinar
+
+TBD
+
+## 14th March 2018 - Hackathon
+
+We connected with both stakeholders and industry at a collaborative and innovative event - over 150 people, including a delegation who flew over from Stanford University in the United States, attended our Technical Connectathon in Leeds.
+
+The event focused on interoperability, and the consistent exchange of information which empowers health and care professionals to make better use of patient data across organisational boundaries and different clinical contexts.
+
+One of the ways of making systems interoperable across boundaries is by developing an Application Programming Interface (API), which allows different systems to connect to each other. At the Connectathon, attendees were able to test a range of APIs in trial implementation settings, share learnings, and work together to solve problems. Attendees also had the opportunity to learn more about a range of NHS Digital projects programme via presentations and workshops.
+
+The following programmes provided APIs to test: CareConnect, e-Referral Service and Organisation Data Service. Presentations were delivered by: CareConnect, e-Referral Service, Organisation Data Service, National Record Locator Service, Digital Child Health and GP Connect.
+
 ## 1st June 2017 – Industry Briefings with techUK
 techUK and NHS Digital are hosting two industry briefings. Join us in London or Leeds to hear from NHS Digital’s Director of Digital Transformation Beverley Bryant and her team, and to discuss the role of industry in supporting their work.
 
