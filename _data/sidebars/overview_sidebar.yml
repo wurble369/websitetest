@@ -134,9 +134,9 @@ entries:
     - title: Assurance Approach
       url: /assure_assurance_approach.html
       output: web
-    - title: Path-To-Live
-      url: /assure_path_to_live.html
-      output: web
+#    - title: Path-To-Live
+#      url: /assure_path_to_live.html
+#      output: web
 
   - title: Deploy
     output: web
