@@ -11,6 +11,8 @@ summary: "News and events related to the e-RS APIs"
 
 The NHS e-Referral Service has been working with partners to develop and release new Application Programming Interface (API) functionality. In this webinar, Dr Paul Denton (NHS e-Referral Service Programme Manager) presented in collaboration with Digital Health, PCTI Solutions Limited and Western Sussex Hospitals NHSFT and provided a high-level overview of recent developments, by focusing on the project initiation from one partnership between NHS e-Referral Service, Western Sussex Hospitals NHS Foundation Trust and PCTI Solutions Limited.
 
+<img src="images/news/webinar-feb-2018.jpg" alt="Digital Health Webinar February 2018" style="width: 425px;"/>
+
 [Click here to view an archive of the presentation](https://www.digitalhealth.net/events/webinar-nhs-e-referral-service-interoperability-api-integration-update/)
 
 ## 14th March 2018 - Technical Connectathon in Leeds
