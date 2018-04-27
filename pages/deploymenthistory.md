@@ -7,6 +7,14 @@ toc: false
 summary: "Deployment history for the e-RS APIs"
 ---
 
+### 7.4 (Released 17/04/18) ###
+
+### 7.3 (Released 16/03/18) ###
+
+### 7.2 (Released 16/02/18) ###
+
+### 7.1 (Released 19/01/18) ###
+
 ### 7.0 (Released 08/12/17) ###
 A014: Reject Referral API (Alpha)
 
