@@ -7,7 +7,7 @@ permalink: /assure_assurance_approach.html
 summary: "Assurance Approach"
 ---
 
-The selected methodology for the assurance of the NHS e-Referral Service APIs will comprise the implementation of the Target Operating Model (TOM) as generically recorded within NHS Digital’s  online Technology Reference data Update Distribution (TRUD) repository – [Access](https://isd.digital.nhs.uk/trud3/user/guest/group/0/home).
+The selected methodology for the assurance of the NHS e-Referral Service APIs will comprise the implementation of the Target Operating Model (TOM) as generically recorded within NHS Digital’s  online Technology Reference data Update Distribution (TRUD) repository.
 
 The TOM is an integral part of the Interoperability Toolkit. It details the Trusts’ responsibilities for Locally Assured Systems, Spine Mini Service compliant systems and will contain an enhanced version for the deployment and release of NHS e-RS APIs.
 

@@ -17,9 +17,9 @@ entries:
     - title: Deployment History
       url: /deployment_history.html
       output: web
-    - title: Coming Soon
-      url: /coming_soon.html
-      output: web
+#    - title: Coming Soon
+#      url: /coming_soon.html
+#      output: web
 
   - title: Get Started
     output: web
@@ -31,18 +31,18 @@ entries:
     - title: Get Connected
       url: /getstarted_get_connected.html
       output: web
-    - title: Capabilities
-      url: /getstarted_capabilities.html
-      output: web
-    - title: Glossary of Terms
-      url: /getstarted_glossary_of_terms.html
-      output: web
-    - title: Partner Registration
-      url: /getstarted_partner_registration.html
-      output: web
-    - title: Frequently Asked Questions
-      url: /getstarted_faq.html
-      output: web
+#    - title: Capabilities
+#      url: /getstarted_capabilities.html
+#      output: web
+#    - title: Glossary of Terms
+#      url: /getstarted_glossary_of_terms.html
+#      output: web
+#    - title: Partner Registration
+#      url: /getstarted_partner_registration.html
+#      output: web
+#    - title: Frequently Asked Questions
+#      url: /getstarted_faq.html
+#      output: web
 
   - title: Explore
     output: web
@@ -117,9 +117,9 @@ entries:
     - title: Business Flows
       url: /develop_business_flows.html
       output: web
-    - title: Code Samples
-      url: /develop_code_samples.html
-      output: web
+#    - title: Code Samples
+#      url: /develop_code_samples.html
+#      output: web
     - title: Test Data
       url: /develop_test_data.html
       output: web
