@@ -11,7 +11,7 @@ summary: "News and events related to the e-RS APIs"
 
 TBD
 
-## 14th March 2018 - Connectathon
+## 14th March 2018 - Technical Connectathon in Leeds
 
 We connected with both stakeholders and industry at a collaborative and innovative event - over 150 people, including a delegation who flew over from Stanford University in the United States, attended our Technical Connectathon in Leeds.
 
