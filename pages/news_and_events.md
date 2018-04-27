@@ -11,9 +11,11 @@ summary: "News and events related to the e-RS APIs"
 
 TBD
 
-## 14th March 2018 - Hackathon
+## 14th March 2018 - Connectathon
 
 We connected with both stakeholders and industry at a collaborative and innovative event - over 150 people, including a delegation who flew over from Stanford University in the United States, attended our Technical Connectathon in Leeds.
+
+![NHS e-RS Connectathon March 2018](images/news/connectathon-march-2018,jpg)
 
 The event focused on interoperability, and the consistent exchange of information which empowers health and care professionals to make better use of patient data across organisational boundaries and different clinical contexts.
 
