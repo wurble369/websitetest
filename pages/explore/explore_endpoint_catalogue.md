@@ -7,7 +7,7 @@ permalink: /explore_endpoint_catalogue.html
 summary: "Catalogue of all external e-RS API endpoints"
 ---
 
-|Id&nbsp;&nbsp;&nbsp;&nbsp|Name|Family|Verb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|URI|
+|Id&nbsp;&nbsp;&nbsp;&nbsp;|Name|Family|Verb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|URI|
 |---|---|---|---|
 |A001|[Create Professional Session](explore_endpoint_a001.html)|Session|POST|/v1/ProfessionalSession|
 |A002|[Professional Session Select Role](explore_endpoint_a002.html)|Session|PUT|/v1/ProfessionalSession/{sessionKey}|
