@@ -7,7 +7,7 @@ permalink: getstarted_faq.html
 summary: "A set of common questions and answers regarding the e-RS APIs"
 ---
 
-| Category | Question | Answer |
+| Category&nbsp;&nbsp;&nbsp; | Question | Answer |
 | -------- | -------- | ------ |
 | Comms | How can I view the Digital Health Webinar from the 23/02/2018? | The webinar can be found on the [Digital Health website](https://www.digitalhealth.net/events/webinar-nhs-e-referral-service-interoperability-api-integration-update/). |
 | Comms | Can I see the NHS roadmap for the APIs? | The NHS roadmap for the APIs can be found [here](https://digital.nhs.uk/e-Referral-Service/Future-Service). |
