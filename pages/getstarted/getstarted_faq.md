@@ -27,4 +27,5 @@ summary: "A set of common questions and answers regarding the e-RS APIs"
 | Connecting | Can I use my e-RS/LIVE smartcards with the e-RS/DEV1 environment? | No, you will need new smartcards as a smartcard can only be linked to a single environment (DEV, INT, DEP, TRAIN and LIVE). |
 | Connecting | What is Postman? Can I connect using my own solution instead? | We ask Partners to use Postman to establish initial connectivity with the APIs after which you can use your own solution to talk to the APIs. Please learn more about Postman on their [official website](https://www.getpostman.com). |
 | Costs | Is there any cost associated with utilising the APIs? | No, the use of the APIs is free. |
+| Service | I can access the APIs, what's next? | For more information about e-RS please visit the [NHS e-Referral Service website](https://digital.nhs.uk/services/nhs-e-referral-service/). |
 | Service | I have a Service, how can I link it to the NHS Test PAS? | Once you have created the service please send the Service ID to the SA Service Desk who will be able to link it to a Test PAS System for you to book appointments against. |
