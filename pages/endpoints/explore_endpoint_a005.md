@@ -277,8 +277,8 @@ Example:
 }
 ```
 
-## Code Sample
+<!--## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
 ## Notes
-To follow.
+To follow.-->

@@ -182,11 +182,11 @@ If successful referrals under ‘Referrals for Review’ worklist are returned. 
 }
 ```
 
-## Code Sample
+<!--## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](https://developer.nhs.uk/library/systems/e-rs/ecosystem/develop/code/) for further details.
 
 ## Notes
-TODO
+TODO-->
 
 ### Response Messages
 

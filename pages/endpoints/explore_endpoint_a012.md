@@ -132,5 +132,5 @@ and attachmentsToInsert is the attachment you wish to insert (so in this example
 ## Output
 If successful the attachments are uploaded to the referral request. The response code `200 (OK)` is returned. This response has no body.
 
-## Code Sample
-Refer to the `API Client Demonstrator tool` source code.
+<!--## Code Sample
+Refer to the `API Client Demonstrator tool` source code.-->

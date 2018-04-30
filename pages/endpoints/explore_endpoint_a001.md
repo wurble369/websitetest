@@ -88,7 +88,7 @@ The response code `201 (Created)` is returned.
 }
 ```
 
-## Code Sample
+<!-- ## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
 ```javascript
@@ -114,7 +114,7 @@ function createSession(tokenCode, entryUrl) {
      });
      return deferred.promise;
  }
-```
+```-->
 
 ## Notes
 Once the session has been created a list of applicable permissions for the user will be returned. The session will not be usable until a permission/role has been selected using the Select Role endpoint.

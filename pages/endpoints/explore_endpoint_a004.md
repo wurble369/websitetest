@@ -89,7 +89,7 @@ A [Value Set Resource](explore_models.html) profiled specifically for the given 
 }
 ```
 
-## Code Sample
+<!--## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
 ```javascript
@@ -121,7 +121,7 @@ angular.module('ers-consumer-exampleApp')
         getRefData: getRefData
     };
   });
-```
+```-->
 
 ## Notes
 Consuming application must have a valid session in order to access this endpoint.

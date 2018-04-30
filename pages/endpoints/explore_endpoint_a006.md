@@ -31,8 +31,8 @@ Accept:*/*
 ## Output
 If successful file content linked to the referral is returned. The response code `200 (OK)` is returned.
 
-## Code Sample
-Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
+<!--## Code Sample
+Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.-->
 
 ## Notes
 Get the Attachment identified by the given Referral Request Id and Attachment Id.

@@ -31,7 +31,7 @@ HTTP_X_SESSION_KEY:{sessionKey}
 ## Output
 If successful the response code 204 (No Content) is returned. This response has no body.
 
-## Code Sample
+<!--## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
 ```javascript
@@ -56,7 +56,7 @@ function deleteSession() {
 
     return deferred.promise;
 }
-```
+```-->
 
 ## Notes
 Consuming application must have a valid session in order to access this endpoint.

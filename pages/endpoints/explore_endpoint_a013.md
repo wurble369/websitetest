@@ -34,5 +34,5 @@ Note: `n` is the VersionId of the Referral and this can be retrieved by fetching
 ## Output
 If successful the referral is accepted. The response code `200 (OK)` is returned. This response has no body.
 
-## Code Sample
-Refer to the `API Client Demonstrator tool` source code.
+<!--## Code Sample
+Refer to the `API Client Demonstrator tool` source code.-->

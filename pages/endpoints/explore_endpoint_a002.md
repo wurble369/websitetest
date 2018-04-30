@@ -93,7 +93,7 @@ The response code `200 (OK)` is returned.
 }
 ```
 
-## Code Sample
+<!--## Code Sample
 Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
 
 ```javascript
@@ -120,7 +120,7 @@ function selectRole(permission) {
 
      return deferred.promise;
  }
-```
+```-->
 
 ## Notes
 The Create Session endpoint must be called in order to create the session. This endpoint can then be used to select one of the applicable roles/permissions returned.

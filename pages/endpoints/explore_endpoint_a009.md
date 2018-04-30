@@ -223,5 +223,5 @@ Example
 }
 ```
 
-## Code Sample
-Refer to the `API Client Demonstrator tool` source code.
+<!--## Code Sample
+Refer to the `API Client Demonstrator tool` source code.-->

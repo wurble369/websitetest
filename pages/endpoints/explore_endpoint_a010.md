@@ -231,5 +231,5 @@ If successful the list of patient-specific services are returned. The response c
 }
 ```
 
-## Code Sample
-Refer to the `API Client Demonstrator tool` source code.
+<!--## Code Sample
+Refer to the `API Client Demonstrator tool` source code.-->

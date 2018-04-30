@@ -67,5 +67,5 @@ Note: If it’s an IBS service, use below extra field:
 ## Output
 If successful the referral is rejected. The response code `200 (OK)` is returned. This response has no body.
 
-## Code Sample
-Refer to the `API Client Demonstrator tool` source code.
+<!--## Code Sample
+Refer to the `API Client Demonstrator tool` source code.-->

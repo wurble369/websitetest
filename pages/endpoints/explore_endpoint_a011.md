@@ -160,5 +160,5 @@ If successful the referral request is created with UBRN and Version Id. The resp
 }
 ```
 
-## Code Sample
-Refer to the `API Client Demonstrator tool` source code.
+<!--## Code Sample
+Refer to the `API Client Demonstrator tool` source code.-->

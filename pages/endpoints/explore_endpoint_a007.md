@@ -31,8 +31,8 @@ Accept:*/*
 ## Output
 If successful a PDF of clinical referral information for referral is returned. The response code `200 (OK)` is returned.
 
-## Code Sample
-Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.
+<!--## Code Sample
+Code snippets taken from the consumer example. See [Code Samples](develop_code_samples.html) for further details.-->
 
 ## Notes
 Get the Clinical Referral Information for a Referral Request identified by the given UBRN.
