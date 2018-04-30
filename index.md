@@ -21,7 +21,7 @@ The site has five main parts. Each aligns to a phase of development and partner 
 
 A summary of the activities and the support material in each of the phases are as follows:
 
-|Phase&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
+|Phase&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
 |---|---|
 |1.&nbsp;Get&nbsp;Started|Non-technical and high-level technical documentation to get started with the development|
 |2.&nbsp;Explore|First taste of API through an interactive online console with full API reference, type system, and (ReST) resource definitions|
