@@ -28,8 +28,14 @@ entries:
     - title: Development Journey
       url: /getstarted_development_journey.html
       output: web
+    - title: Implementation Steps
+      url: /getstarted_implementation_steps.html
+      output: web
     - title: Get Connected
       url: /getstarted_get_connected.html
+      output: web
+    - title: Business Partners
+      url: /getstarted_business_partners.html
       output: web
 #    - title: Capabilities
 #      url: /getstarted_capabilities.html
@@ -128,11 +134,17 @@ entries:
     output: web
     folderitems:
 
-    - title: Business Partners
-      url: /assure_business_partners.html
-      output: web
     - title: Assurance Approach
       url: /assure_assurance_approach.html
+      output: web
+    - title: Target Operating Model
+      url: /assure_tom.html
+      output: web
+    - title: Agreements
+      url: /assure_agreements.html
+      output: web
+    - title: Supporting Requirements
+      url: /assure_supporting_requirements.html
       output: web
 #    - title: Path-To-Live
 #      url: /assure_path_to_live.html

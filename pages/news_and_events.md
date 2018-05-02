@@ -7,13 +7,16 @@ toc: false
 summary: "News and events related to the e-RS APIs"
 ---
 
-## 23 February 2018 - Digital Health Webinar
+## 1 and 10 May 2018 - Tech UK
 
-The NHS e-Referral Service has been working with partners to develop and release new Application Programming Interface (API) functionality. In this webinar, Dr Paul Denton (NHS e-Referral Service Programme Manager) presented in collaboration with Digital Health, PCTI Solutions Limited and Western Sussex Hospitals NHSFT and provided a high-level overview of recent developments, by focusing on the project initiation from one partnership between NHS e-Referral Service, Western Sussex Hospitals NHS Foundation Trust and PCTI Solutions Limited.
+TODO: www.techuk.org/events - copy blurb about 10 May event in Leeds
+TODO: Find photos on Twitter (Paul or tech uk) @drpauldenton
+TODO: www.industrybriefings.co.uk - copy blurb or get master slides from Paul
+TODO: See below from 2017
 
-<img src="images/news/webinar-feb-2018.png" alt="Digital Health Webinar February 2018" style="width: 425px;"/>
+# 1 April 2018 - New e-Referral Service release
 
-[Click here to view an archive of the presentation](https://www.digitalhealth.net/events/webinar-nhs-e-referral-service-interoperability-api-integration-update/)
+TODO: Link to https://digital.nhs.uk/services/nhs-e-referral-service/the-future-of-the-nhs-e-referral-service
 
 ## 14th March 2018 - Technical Connectathon in Leeds
 
@@ -26,6 +29,14 @@ The event focused on interoperability, and the consistent exchange of informatio
 One of the ways of making systems interoperable across boundaries is by developing an Application Programming Interface (API), which allows different systems to connect to each other. At the Connectathon, attendees were able to test a range of APIs in trial implementation settings, share learnings, and work together to solve problems. Attendees also had the opportunity to learn more about a range of NHS Digital projects programme via presentations and workshops.
 
 The following programmes provided APIs to test: CareConnect, e-Referral Service and Organisation Data Service. Presentations were delivered by: CareConnect, e-Referral Service, Organisation Data Service, National Record Locator Service, Digital Child Health and GP Connect.
+
+## 23 February 2018 - Digital Health Webinar
+
+The NHS e-Referral Service has been working with partners to develop and release new Application Programming Interface (API) functionality. In this webinar, Dr Paul Denton (NHS e-Referral Service Programme Manager) presented in collaboration with Digital Health, PCTI Solutions Limited and Western Sussex Hospitals NHSFT and provided a high-level overview of recent developments, by focusing on the project initiation from one partnership between NHS e-Referral Service, Western Sussex Hospitals NHS Foundation Trust and PCTI Solutions Limited.
+
+<img src="images/news/webinar-feb-2018.png" alt="Digital Health Webinar February 2018" style="width: 425px;"/>
+
+[Click here to view an archive of the presentation](https://www.digitalhealth.net/events/webinar-nhs-e-referral-service-interoperability-api-integration-update/)
 
 ## 1st June 2017 – Industry Briefings with techUK
 techUK and NHS Digital are hosting two industry briefings. Join us in London or Leeds to hear from NHS Digital’s Director of Digital Transformation Beverley Bryant and her team, and to discuss the role of industry in supporting their work.
