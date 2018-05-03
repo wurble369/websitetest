@@ -20,9 +20,9 @@ For more information visit the [Tech UK website](http://www.techuk.org/events/me
 
 <img src="images/news/techuk-may-2018.png" alt="Tech UK Industry Briefing with NHS Digital" style="width: 425px;"/>
 
-# 1 April 2018 - New e-Referral Service release
+<!--# 1 April 2018 - New NHS e-Referral Service release-->
 
-TODO: Link to https://digital.nhs.uk/services/nhs-e-referral-service/the-future-of-the-nhs-e-referral-service
+<!--Today we are pleased to announce the release of NHS e-Referral Service version 7.5.  https://digital.nhs.uk/services/nhs-e-referral-service/the-future-of-the-nhs-e-referral-service-->
 
 ## 14th March 2018 - Technical Connectathon in Leeds
 
