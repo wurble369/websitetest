@@ -7,12 +7,23 @@ toc: false
 summary: "News and events related to the e-RS APIs"
 ---
 
-## 1 and 10 May 2018 - Tech UK
+## 1 and 10 May 2018 - Tech UK Industry Briefing with NHS Digital
 
 TODO: www.techuk.org/events - copy blurb about 10 May event in Leeds
 TODO: Find photos on Twitter (Paul or tech uk) @drpauldenton
 TODO: www.industrybriefings.co.uk - copy blurb or get master slides from Paul
 TODO: See below from 2017
+
+TechUK is hosting this event in Leeds and London. The briefing covers:
+
+* an update of NHS Digital's work including the "personalised health and care 2020" programmes commissioned by the National Information Board
+* an in-depth look at a number of NHS Digital's development roadmaps and programme plans, an opportunity to ask questions of NHS Digital senior management who are leading development and service improvement programmes
+* a chance to share your perspectives with NHS Digital, techUK and colleagues across the health and social care digital industry
+* signposting to further information and opportunities to shape the development of NHS Digital's services.
+
+<img src="images/news/techuk-may-2018.jpg" alt="Tech UK Industry Briefing with NHS Digital" style="width: 425px;"/>
+
+For more information visit the [Tech UK website](http://www.techuk.org/events/meeting/item/12637-industry-briefing-with-nhs-digital-leeds)
 
 # 1 April 2018 - New e-Referral Service release
 
