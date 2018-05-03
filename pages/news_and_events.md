@@ -16,7 +16,7 @@ TechUK is hosting this event in Leeds and London. The briefing covers:
 * a chance to share your perspectives with NHS Digital, techUK and colleagues across the health and social care digital industry
 * signposting to further information and opportunities to shape the development of NHS Digital's services.
 
-For more information visit the [Tech UK website](http://www.techuk.org/events/meeting/item/12637-industry-briefing-with-nhs-digital-leeds) and the [NHS Industry Briefings website](www.industrybriefings.co.uk).
+For more information visit the [Tech UK website](http://www.techuk.org/events/meeting/item/12637-industry-briefing-with-nhs-digital-leeds) and the [NHS Industry Briefings website](http://www.industrybriefings.co.uk/).
 
 <img src="images/news/techuk-may-2018.png" alt="Tech UK Industry Briefing with NHS Digital" style="width: 425px;"/>
 
