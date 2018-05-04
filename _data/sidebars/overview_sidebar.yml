@@ -11,15 +11,18 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+    - title: Strategic Approach
+      url: /strategic_approach.html
+      output: web
     - title: News and Events
       url: /news_and_events.html
       output: web
     - title: Deployment History
       url: /deployment_history.html
       output: web
-#    - title: Coming Soon
-#      url: /coming_soon.html
-#      output: web
+    - title: Forward Notices
+      url: /forward_notices.html
+      output: web
 
   - title: Get Started
     output: web
@@ -40,14 +43,14 @@ entries:
 #    - title: Capabilities
 #      url: /getstarted_capabilities.html
 #      output: web
-#    - title: Glossary of Terms
-#      url: /getstarted_glossary_of_terms.html
-#      output: web
 #    - title: Partner Registration
 #      url: /getstarted_partner_registration.html
 #      output: web
     - title: Frequently Asked Questions
       url: /getstarted_faq.html
+      output: web
+    - title: Glossary of Terms
+      url: /getstarted_glossary_of_terms.html
       output: web
 
   - title: Explore
@@ -109,8 +112,8 @@ entries:
           url: /explore_endpoint_a014.html
           output: web
 
-    - title: Standard Resources
-      url: /explore_resources.html
+    - title: Implementation Guidelines
+      url: /explore_implementation_guidelines.html
       output: web
     - title: Standard Models
       url: /explore_models.html
@@ -120,14 +123,26 @@ entries:
     output: web
     folderitems:
 
-    - title: Business Flows
-      url: /develop_business_flows.html
-      output: web
+      subfolders:
+      - title: Endpoint Catalogue
+        output: web
+        subfolderitems:
+
+        - title: BF001: Authentication and Authorisation
+          url: /develop_business_flow_bf001.html
+          output: web
+        - title: BF002: Clinical Referral Information
+          url: /develop_business_flow_bf002.html
+          output: web
+
 #    - title: Code Samples
 #      url: /develop_code_samples.html
 #      output: web
     - title: Test Data
       url: /develop_test_data.html
+      output: web
+    - title: Support
+      url: /develop_support.html
       output: web
 
   - title: Assure
