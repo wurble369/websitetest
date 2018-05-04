@@ -124,14 +124,14 @@ entries:
     folderitems:
 
       subfolders:
-      - title: Endpoint Catalogue
+      - title: Business Flows
         output: web
         subfolderitems:
 
-        - title: BF001: Authentication and Authorisation
+        - title: "BF001: Authentication and Authorisation"
           url: /develop_business_flow_bf001.html
           output: web
-        - title: BF002: Clinical Referral Information
+        - title: "BF002: Clinical Referral Information"
           url: /develop_business_flow_bf002.html
           output: web
 
