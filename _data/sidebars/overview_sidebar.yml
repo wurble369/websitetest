@@ -123,6 +123,10 @@ entries:
     output: web
     folderitems:
 
+    - title: Test Data
+      url: /develop_test_data.html
+      output: web
+      
       subfolders:
       - title: Business Flows
         output: web
@@ -138,9 +142,6 @@ entries:
 #    - title: Code Samples
 #      url: /develop_code_samples.html
 #      output: web
-    - title: Test Data
-      url: /develop_test_data.html
-      output: web
     - title: Support
       url: /develop_support.html
       output: web
