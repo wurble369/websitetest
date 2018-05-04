@@ -3,7 +3,7 @@ title: BF002: Clinical Referral Information
 keywords: business, flow
 sidebar: overview_sidebar
 toc: false
-permalink: develop_business_flow_bf002.html
+permalink: /develop_business_flow_bf002.html
 summary: "Business flows and their related endpoints"
 ---
 

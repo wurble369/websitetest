@@ -3,7 +3,7 @@ title: BF001: Authentication and Authorisation
 keywords: business, flow
 sidebar: overview_sidebar
 toc: false
-permalink: develop_business_flow_bf001.html
+permalink: /develop_business_flow_bf001.html
 summary: "Business flows and their related endpoints"
 ---
 

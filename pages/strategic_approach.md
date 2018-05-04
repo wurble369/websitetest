@@ -2,8 +2,8 @@
 title: Strategic Approach
 keywords: strategy
 sidebar: overview_sidebar
-permalink: /strategic_approach.html
 toc: false
+permalink: /strategic_approach.html
 summary: "Strategic approach for the e-RS APIs"
 ---
 
