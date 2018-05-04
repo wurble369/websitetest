@@ -11,11 +11,11 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Strategic Approach
-      url: /strategic_approach.html
-      output: web
     - title: News and Events
       url: /news_and_events.html
+      output: web
+    - title: Strategic Approach
+      url: /strategic_approach.html
       output: web
     - title: Deployment History
       url: /deployment_history.html
@@ -126,7 +126,7 @@ entries:
     - title: Test Data
       url: /develop_test_data.html
       output: web
-      
+
       subfolders:
       - title: Business Flows
         output: web
