@@ -7,7 +7,7 @@ permalink: /explore_error_messages.html
 summary: "A summary of error message handling"
 ---
 
-| Error&nbsp;code&nbsp;&nbsp;&nbsp; | Description | Guidance |
+| Error&nbsp;code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | Guidance |
 | ---------- | ----------- | -------- |
 | 400 (Bad Request) | The data received was malformed (e.g. missing/incorrect fields)	| Report the error to local service desk |
 | 403 (Forbidden)| The logged in user is not authorised to perform the requested action (e.g. due to their business function not being authorised, organisation not having the appropriate organisation role, legitimate relationship, referrer rights etc) | Report the error to local service desk |
