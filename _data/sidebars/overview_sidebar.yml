@@ -112,14 +112,14 @@ entries:
           url: /explore_endpoint_a014.html
           output: web
 
-    - title: Error Messages
-      url: /explore_error_messages.html
-      output: web
     - title: Implementation Guidelines
       url: /explore_implementation_guidelines.html
       output: web
     - title: Standard Models
       url: /explore_models.html
+      output: web
+    - title: Error Messages
+      url: /explore_error_messages.html
       output: web
 
   - title: Develop
