@@ -20,6 +20,6 @@ summary: "Catalogue of all external e-RS API endpoints"
 |A009|[Directory Service Search](explore_endpoint_a009.html)|Service Search|POST|/v1/HealthcareService/$dos.serviceSearch|Alpha|&nbsp;|
 |A010|[Patient Service Search](explore_endpoint_a010.html)|Service Search|POST|/v1/HealthcareService/$patient.serviceSearch|Alpha|&nbsp;|
 |A011|[Create Referral Request Through Shortlist](explore_endpoint_a011.html)|Referral Request|POST|/v1/CreateReferral|Alpha| |
-|A012|[Upload Attachments](explore_endpoint_a012.html)|ReferralAlpha|&nbsp;| Request|POST|/v1/ReferralRequest/{{UBRN}}/$ers.uploadReferralLetter|Alpha|&nbsp;|
+|A012|[Upload Attachments](explore_endpoint_a012.html)|Referral Request|POST|/v1/ReferralRequest/{{UBRN}}/$ers.uploadReferralLetter|Alpha|&nbsp;|
 |A013|[Accept Referral](explore_endpoint_a013.html)|Referral Request|POST|/v1/ReferralRequest/{{UBRN}}/$ers.accept|Alpha|&nbsp;|
 |A014|[Reject Referral](explore_endpoint_a014.html)|Referral Request|POST|/v1/ReferralRequest/{{UBRN}}/$ers.reject|Alpha|&nbsp;|
