@@ -14,7 +14,7 @@ summary: "Catalogue of all external e-RS API endpoints"
 |A003|[Delete Professional Session](explore_endpoint_a003.html)|Session|DELETE|/v1/ProfessionalSession/{sessionKey}|Live|&nbsp;|
 |A004|[Retrieve Reference Data](explore_endpoint_a004.html)|Reference Data|GET|/v1/ValueSet/{valueSetId}|Live|&nbsp;|
 |A005|[Retrieve Referral Request](explore_endpoint_a005.html)|Clinical Referral Information|GET|/v1/ReferralRequest/{id}|Live|[Model](https://data.developer.nhs.uk/specifications/eRS-draftd/Profile.ReferralsForReviewWorklistResponse/ers-referralrequest-1.html)|
-|A006|[Retrieve Attachment](explore_endpoint_a006.html)|Clinical ReferralLive|&nbsp;| Information|GET|/v1/Binary/att-{referralRequestAttachmentId|Live|&nbsp;|
+|A006|[Retrieve Attachment](explore_endpoint_a006.html)|Clinical Referral Information|GET|/v1/Binary/att-{referralRequestAttachmentId|Live|&nbsp;|
 |A007|[Retrieve Clinical Information](explore_endpoint_a007.html)|Clinical Referral Information|GET|/v1/Binary/$ers.generateCRI|Live|[Model](https://data.developer.nhs.uk/specifications/eRS-draftd/Profile.ClinicalReferralInformationQuery/ers-clinicalreferralinformation-operation-1.html)|
 |A008|[Retrieve Worklist](explore_endpoint_a008.html)|Clinical Referral Information|GET|/v1/ReferralRequest/$ers.fetchworklist|Live|[Model](https://data.developer.nhs.uk/specifications/eRS-draftd/Profile.ReferralsForReviewWorklistQuery/ers-fetchworklist-operation-1.html)|
 |A009|[Directory Service Search](explore_endpoint_a009.html)|Service Search|POST|/v1/HealthcareService/$dos.serviceSearch|Alpha|&nbsp;|
