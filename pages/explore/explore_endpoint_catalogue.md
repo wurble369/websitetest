@@ -9,7 +9,7 @@ summary: "Catalogue of all external e-RS API endpoints"
 
 |Id&nbsp;&nbsp;&nbsp;&nbsp;|Name|Family|Verb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|URI|Status|FHIR|
 |---|---|---|---|---|---|
-|A001|[Create Professional Session](explore_endpoint_a001.html)|Session|POST|/v1/ProfessionalSession|Live|&nbsp;|
+|A001|[Create Professional Session](explore_endpoint_a001.html)|Session|POST|/v1/ProfessionalSession|<span class="api_status_indicator Live">Live</span>|&nbsp;|
 |A002|[Professional Session Select Role](explore_endpoint_a002.html)|Session|PUT|/v1/ProfessionalSession/{sessionKey}|Live|&nbsp;|
 |A003|[Delete Professional Session](explore_endpoint_a003.html)|Session|DELETE|/v1/ProfessionalSession/{sessionKey}|Live|&nbsp;|
 |A004|[Retrieve Reference Data](explore_endpoint_a004.html)|Reference Data|GET|/v1/ValueSet/{valueSetId}|Live|&nbsp;|
@@ -17,7 +17,7 @@ summary: "Catalogue of all external e-RS API endpoints"
 |A006|[Retrieve Attachment](explore_endpoint_a006.html)|Clinical Referral Information|GET|/v1/Binary/att-{referralRequestAttachmentId|Live|&nbsp;|
 |A007|[Retrieve Clinical Information](explore_endpoint_a007.html)|Clinical Referral Information|GET|/v1/Binary/$ers.generateCRI|Live|[Model](https://data.developer.nhs.uk/specifications/eRS-draftd/Profile.ClinicalReferralInformationQuery/ers-clinicalreferralinformation-operation-1.html)|
 |A008|[Retrieve Worklist](explore_endpoint_a008.html)|Clinical Referral Information|GET|/v1/ReferralRequest/$ers.fetchworklist|Live|[Model](https://data.developer.nhs.uk/specifications/eRS-draftd/Profile.ReferralsForReviewWorklistQuery/ers-fetchworklist-operation-1.html)|
-|A009|[Directory Service Search](explore_endpoint_a009.html)|Service Search|POST|/v1/HealthcareService/$dos.serviceSearch|Alpha|&nbsp;|
+|A009|[Directory Service Search](explore_endpoint_a009.html)|Service Search|POST|/v1/HealthcareService/$dos.serviceSearch|<span class="api_status_indicator Alpha">Alpha</span>|&nbsp;|
 |A010|[Patient Service Search](explore_endpoint_a010.html)|Service Search|POST|/v1/HealthcareService/$patient.serviceSearch|Alpha|&nbsp;|
 |A011|[Create Referral Request Through Shortlist](explore_endpoint_a011.html)|Referral Request|POST|/v1/CreateReferral|Alpha| |
 |A012|[Upload Attachments](explore_endpoint_a012.html)|Referral Request|POST|/v1/ReferralRequest/{{UBRN}}/$ers.uploadReferralLetter|Alpha|&nbsp;|
