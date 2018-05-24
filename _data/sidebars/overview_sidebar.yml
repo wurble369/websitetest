@@ -43,9 +43,9 @@ entries:
 #    - title: Capabilities
 #      url: /getstarted_capabilities.html
 #      output: web
-#    - title: Partner Registration
-#      url: /getstarted_partner_registration.html
-#      output: web
+    - title: Partner Registration
+      url: /getstarted_partner_registration.html
+      output: web
     - title: Frequently Asked Questions
       url: /getstarted_faq.html
       output: web
