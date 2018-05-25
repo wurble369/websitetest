@@ -4,7 +4,7 @@ keywords: development, faq
 sidebar: overview_sidebar
 toc: false
 permalink: getstarted_faq.html
-summary: "A set of common questions and answers regarding the e-RS APIs"
+summary: "A set of common questions and answers regarding the e-Referral APIs"
 ---
 
 | Category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Question&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Answer |

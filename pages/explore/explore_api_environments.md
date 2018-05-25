@@ -4,7 +4,7 @@ keywords: explore, environments
 sidebar: overview_sidebar
 toc: false
 permalink: /explore_api_environments.html
-summary: "Access and explore the two supporting API environments"
+summary: "Access and explore the two supporting e-Referral API environments"
 ---
 
 To support the development of APIs within the Ecosystem, there are two supporting environments. These comprise:
