@@ -46,11 +46,11 @@ entries:
     - title: Partner Registration
       url: /getstarted_partner_registration.html
       output: web
-    - title: Frequently Asked Questions
-      url: /getstarted_faq.html
-      output: web
     - title: Glossary of Terms
       url: /getstarted_glossary_of_terms.html
+      output: web
+    - title: Frequently Asked Questions
+      url: /getstarted_faq.html
       output: web
 
   - title: Explore
