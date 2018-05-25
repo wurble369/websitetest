@@ -7,7 +7,7 @@ permalink: getstarted_faq.html
 summary: "A set of common questions and answers regarding the e-Referral APIs"
 ---
 
-| Category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Question&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Answer |
+| Category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Question&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Answer |
 | -------- | -------- | ------ |
 | Overview | Can I see the NHS roadmap for the APIs? | The NHS roadmap for the APIs can be found [here](https://digital.nhs.uk/e-Referral-Service/Future-Service). |
 | Overview | Which APIs are currently available? | Please see the [API Endpoint Catalogue](explore_endpoint_catalogue.html). |
