@@ -7,4 +7,6 @@ permalink: /assure_tom.html
 summary: "Target Operating Model"
 ---
 
-TODO: Borrow from the SMSP Portal TOM and Assurance Process Steps pages
+The Target Operating Model is a light-weight framework used for you to self-assure your own system confirming it meets the requirements and passes compliance.
+
+More information to follow shortly.
