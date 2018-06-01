@@ -7,4 +7,4 @@ permalink: /assure_supporting_requirements.html
 summary: "Supporting Requirements"
 ---
 
-TODO: Borrow IG guides from the Requirements Pack page on the SMSP Portal
+Coming soon.
