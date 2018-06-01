@@ -7,4 +7,4 @@ permalink: /develop_support.html
 summary: "Support"
 ---
 
-TODO: Link into SA Service Desk and Assurance Portal
+Coming soon.
