@@ -11,7 +11,7 @@ The diagram below provides a more detailed view of a typical Development Journey
 
 ![NHS e-RS API Development Journey](images/getstarted/NHS_eRS_API_Development_Journey-1024x835.jpg)
 
-Note that not all activities are illustrated. For instance, Clinical Safety assessment and Information Governance (IG) assurance.
+Note that not all activities are illustrated. For instance Target Operating Model, Clinical Safety assessment and Information Governance (IG) assurance.
 
 As shown in the figure above, a typical scenario involves the following steps:
 
