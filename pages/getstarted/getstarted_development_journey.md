@@ -18,7 +18,7 @@ As shown in the figure above, a typical scenario involves the following steps:
 * a **Business Partner** has an innovative idea related to the e-Referral Service
 * the Partner visits the NHS e-RS API Web Portal and navigates to the **Get Started** section
 after reading the provided development information (which additionally covers other technical and non-technical documentation), they decide to gain hands-on experience of the API and register their interest
-* they get in touch with the Integration Team and arrange to fill in a **Target Operating Model (TOM)**, a light-weight framework used to self-assure the Partner's system confirming it meets the requirements and passes compliance.
+* they get in touch with the Integration Team and arrange to fill in a **Target Operating Model (TOM)**, a light-weight framework used to self-assure the Partner's system confirming it meets the requirements and passes compliance
 <!-- * still on the Web Portal, they navigate to the API Console that allows them to Explore individual API operations (Subject to access provision) -->
 * after completing the TOM, they proceed to acquire a reasonable grasp of the API framework and begin the development lifecycle (**Design**, **Implement** and **System Test**) of the new software product
 <!-- * during this process, the Web Portal provides all the necessary Support including code samples, forums, and bug tracking features -->
