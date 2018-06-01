@@ -13,7 +13,7 @@ To support the development of APIs within the Ecosystem, there are three support
 * Integration
 * Deployment
 
-![Environments](/images/explore/Environments.png)
+![Environments](images/explore/Environments.png)
 
 All of these environments reside on the N3 network and access therefore requires proper registration and physical smart cards. This is managed by SA Service Desk.
 
