@@ -4,7 +4,7 @@ keywords: deployment, history
 sidebar: overview_sidebar
 toc: false
 permalink: /deployment_history.html
-summary: "Deployment history for the e-RS APIs"
+summary: "Deployment history for the e-Referral APIs"
 ---
 
 ### 7.4 (Released 17/04/18) ###

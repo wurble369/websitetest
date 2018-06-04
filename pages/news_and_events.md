@@ -4,7 +4,7 @@ keywords: news, events
 sidebar: overview_sidebar
 toc: false
 permalink: /news_and_events.html
-summary: "News and events related to the e-RS APIs"
+summary: "News and events related to the e-Referral APIs"
 ---
 
 ## 1st and 10th May 2018 - Tech UK Industry Briefing with NHS Digital

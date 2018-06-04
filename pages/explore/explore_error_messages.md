@@ -4,7 +4,7 @@ keywords: api, errors
 sidebar: overview_sidebar
 toc: false
 permalink: /explore_error_messages.html
-summary: "A summary of error message handling"
+summary: "A summary of error message handling for the e-Referral APIs"
 ---
 
 | Error&nbsp;code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | Guidance |
