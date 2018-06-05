@@ -25,6 +25,8 @@ The main points of the TOM are:
 * Centrally audited and checked for completeness
 * Escalation points exist e.g. for clinical safety
 
+## Outline ##
+
 The document itself is a multi-sheet spreadsheet with a variety of areas which need to be filled in by the **End user Organisation**, the **Solution Supplier** and **NHS Digital**. These areas are divided into Contact information, Topology, Architecture, IG & Security, Clinical Safety and Service.
 
 In the process of self-assurance you will progress through the following three phases:
