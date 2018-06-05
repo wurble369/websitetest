@@ -7,7 +7,7 @@ permalink: /assure_tom.html
 summary: "Purpose and outline of the target operating model for the e-Referral APIs"
 ---
 
-## Definition ##
+## Definition ##
 
 The _Target Operating Model (TOM)_ is a light-weight framework used for you to self-assure your own system confirming it meets the requirements and passes compliance.
 
