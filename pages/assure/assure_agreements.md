@@ -9,17 +9,9 @@ summary: "Agreements related to the e-Referral APIs"
 
 ## Document repository
 
-### Target Operating Model
-
-* Click [here](downloads/agreements/Target_Operating_Model_-_e-RS_APIs_-_Self-Evaluation_Checklist_V1_2.xslx) to download (v1.2)
-
-### End User Policy
-
-* Click [here](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-End-User-Policy-Template_V1_01.docx) to download (v1.01)
-
-### Connection Agreement
-
-* Click [here](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-Connection-Agreement_Template_V1_01.docx) to download (v1.01)
+* [Target Operating Model](downloads/agreements/Target_Operating_Model_-_e-RS_APIs_-_Self-Evaluation_Checklist_V1_2.xslx) (v1.2)
+* [End User Policy](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-End-User-Policy-Template_V1_01.docx) (v1.01)
+* [Connection Agreement](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-Connection-Agreement_Template_V1_01.docx) (v1.01)
 
 ## Special Terms
 
