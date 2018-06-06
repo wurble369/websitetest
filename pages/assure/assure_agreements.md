@@ -17,7 +17,7 @@ summary: "Agreements related to the e-Referral APIs"
 
 ## Special Terms
 
-### Data Sharing Requirements and Policy
+### Data Sharing Requirements and Policy
 
 Data sharing requirements are dependent on the Usage and Setting as defined by the End User Organisation and the Solution Supplier Parties in the Target Operating Model.
 The Usage and Settings approval process includes a decision flow to determine whether such agreement is required or not.
@@ -78,7 +78,7 @@ NHS Digital shall be entitled to publish from time to time into the public domai
 4. Compliance: The End User Organisation and the Connecting Party have developed their technical solution and submitted their completed compliance artefacts to commence the formal product assurance process.
 5. Released: The implemented technical solution has successfully achieved product compliance approval and has been released into live NHS e-Referral Service environment.
 
-#### 1.5 Notice Period for Termination
+#### Notice Period for Termination
 
 Notice period for termination of the service will be defined in the written notification of the termination when issued to the Connecting Party. Its duration will be dependent on the following factors:
 
