@@ -7,7 +7,7 @@ permalink: /assure_agreements.html
 summary: "Agreements related to the e-Referral APIs"
 ---
 
-## Download documents
+## Document repository
 
 ### Target Operating Model
 
