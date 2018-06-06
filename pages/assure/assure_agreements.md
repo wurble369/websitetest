@@ -9,7 +9,7 @@ summary: "Agreements related to the e-Referral APIs"
 
 ## Target Operating Model
 
-* Click [here](/downloads/agreements/Target_Operating_Model_-_e-RS_APIs_-_Self-Evaluation_Checklist_V1_2.xslx) to download (v1.2)
+* Click [here](downloads/agreements/Target_Operating_Model_-_e-RS_APIs_-_Self-Evaluation_Checklist_V1_2.xslx) to download (v1.2)
 
 ## End User Policy
 
