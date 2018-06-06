@@ -156,11 +156,11 @@ entries:
     - title: Assurance Approach
       url: /assure_assurance_approach.html
       output: web
-    - title: Target Operating Model
-      url: /assure_tom.html
-      output: web
     - title: Agreements
       url: /assure_agreements.html
+      output: web
+    - title: Target Operating Model
+      url: /assure_tom.html
       output: web
     - title: Supporting Requirements
       url: /assure_supporting_requirements.html
