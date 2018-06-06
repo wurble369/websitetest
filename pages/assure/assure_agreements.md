@@ -9,11 +9,15 @@ summary: "Agreements related to the e-Referral APIs"
 
 ## Target Operating Model
 
-* link
+* Click [here](/downloads/agreements/Target Operating Model - e-RS APIs - Self-Evaluation Checklist v 1.2 - APPROVED.XLSX) to download v1.01
+
+## End User Policy
+
+* Click [here](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-End-User-Policy-Template_V1_01.docx) to download v1.01
 
 ## Connection Agreement
 
-* link
+* Click [here](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-Connection-Agreement_Template_V1_01.docx) to download v1.01
 
 ## Special Terms
 
@@ -75,7 +79,7 @@ For Major Upgrades NHS Digital shall endeavour to:
 
 #### Upgrade Schedule
 
-The upgrade schedule shall be published at https://developer.nhs.uk/library/systems/e-rs/ on the NHS Health Developer Network Ecosystem.
+The upgrade schedule shall be published on the [NHS Health Developer Network Ecosystem](https://developer.nhs.uk/library/systems/e-rs/).
 
 ### Transparency Policy
 
