@@ -11,7 +11,7 @@ summary: "Agreements related to the e-Referral APIs"
 
 * Click [here](/downloads/agreements/Target Operating Model - e-RS APIs - Self-Evaluation Checklist v 1.2 - APPROVED.XLSX) to download v1.01
 
-## End User Policy
+## End User Policy
 
 * Click [here](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-End-User-Policy-Template_V1_01.docx) to download v1.01
 
