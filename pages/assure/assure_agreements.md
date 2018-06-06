@@ -20,17 +20,24 @@ summary: "Agreements related to the e-Referral APIs"
 ### Data Sharing Requirements and Policy
 
 Data sharing requirements are dependent on the Usage and Setting as defined by the End User Organisation and the Solution Supplier Parties in the Target Operating Model.
+
 The Usage and Settings approval process includes a decision flow to determine whether such agreement is required or not.
+
 The Connecting Supplier Party will not be able to on-board its customers until those End Users have signed a Data Sharing Agreement with NHS Digital, where required.
 
 ### Deprecation Policy
 
 NHS Digital will announce if it intends to discontinue or make backwards incompatible changes to its Current Version.
-Depreciation Schedule
+
+#### Depreciation Schedule
+
 NHS Digital operates an agile development process with regular, dynamic and condensed release cycles.
 Deprecation should be interpreted as a fair warning that the either the Current or a Previous Version will soon be turned off.  End User Organisation and the Connecting Party will actively be encouraged to upgrade their implementations at that point. Sunset means that the version is no longer available.
+
 NHS Digital shall provide notification of upcoming sunsets on the NHS Digital Solution Assurance Functional Assurance and Environment Management Team Newsletters.  End User Organisations and the Connecting Party are required to register to the NHS Digital Solution Assurance Functional Assurance and Environment Management Team Newsletters by emailing the SA Service Desk (sa.servicedesk@nhs.net).
+
 NHS Digital will endeavour to provide a 6-month notice period of upcoming sunsets for the Connecting Party to update its system.  NHS Digital shall endeavour not to introduce Major Upgrades (as defined below) more than two times in any twelve-month period. This will mean NHS Digital will practically support a rolling release of two major versions of the Services at one time (beyond alpha and beta development released).
+
 The deprecation schedule is published at https://developer.nhs.uk/library/systems/e-rs/ on the NHS Health Developer Network Ecosystem.
 
 ### Upgrade Policy
@@ -40,7 +47,9 @@ This document describes the upgrade policy for the Services.
 #### Overview
 
 At times in is necessary to make changes to the Services. The upgrade policy is provided to increase transparency on how these changes take place.
-What’s Covered by This Policy
+
+#### What’s Covered by This Policy
+
 This policy covers both the API request (payload and uri) and API response, defined as minor or major upgrades.
 
 #### Minor Upgrade
