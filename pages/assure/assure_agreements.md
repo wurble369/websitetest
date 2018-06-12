@@ -36,7 +36,7 @@ NHS Digital shall provide notification of upcoming sunsets on the NHS Digital So
 
 NHS Digital will endeavour to provide a 6-month notice period of upcoming sunsets for the Connecting Party to update its system.  NHS Digital shall endeavour not to introduce Major Upgrades (as defined below) more than two times in any twelve-month period. This will mean NHS Digital will practically support a rolling release of two major versions of the Services at one time (beyond alpha and beta development released).
 
-The deprecation schedule is published at https://developer.nhs.uk/library/systems/e-rs/ on the NHS Health Developer Network Ecosystem.
+The deprecation schedule is published on the [NHS Digital e-Referrals Developer Network Ecosystem](https://developer.nhs.uk/apis/e-Referrals/index.html).
 
 ### Upgrade Policy
 
