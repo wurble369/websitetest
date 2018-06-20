@@ -15,7 +15,9 @@ summary: "Agreements related to the e-Referral APIs"
 
 ## Special Terms
 
+<div style="border: 2px solid #888888; padding: 10px; outline: #888888 solid 5px; outline-offset: 5px;">
 _Version 1 of NHS e-Referral API Special Terms. Effective date 1 June 2018. Applicable to all supplier and provider partners and should be read in conjunction with the End User Policy and Connection Agreement above._
+</div>
 
 ### Data Sharing Requirements and Policy
 
