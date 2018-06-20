@@ -11,7 +11,7 @@ summary: "Purpose and outline of the target operating model for the e-Referral A
 
 The _Target Operating Model (TOM)_ is a light-weight framework used for you to self-assure your own system confirming it meets the requirements and passes compliance.
 
-## Download
+## Download
 
 You can download the latest version of the TOM from the [Agreements](assure_agreements.html) page.
 
