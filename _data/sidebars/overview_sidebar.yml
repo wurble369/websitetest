@@ -96,7 +96,7 @@ entries:
         - title: "A009: Retrieve Generic Service Search"
           url: /explore_endpoint_a009.html
           output: web
-        - title: "A010: Patient Service Search"
+        - title: "A010: Retrieve Patient Specific Search"
           url: /explore_endpoint_a010.html
           output: web
         - title: "A011: Create Referral Request Through Shortlist"

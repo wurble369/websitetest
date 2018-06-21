@@ -18,7 +18,7 @@ The second option limits the results to services which the user is able to refer
 #### This business flow involves the following APIs
 
 * [A009 - Retrieve Generic Service Search](explore_endpoint_a009.html)
-* [A010 - Patient Service Search](explore_endpoint_a010.html)
+* [A010 - Retrieve Patient Specific Search](explore_endpoint_a010.html)
 
 #### Review the diagram below to learn more
 
