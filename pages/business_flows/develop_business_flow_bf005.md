@@ -15,7 +15,7 @@ While an appointment booking (or a booking deferral) is made at a specific servi
 
 #### This business flow involves the following APIs
 
-* [A011 - Create Referral Request Through Shortlist](explore_endpoint_a011.html)
+* [A011 - Create Referral Shortlist](explore_endpoint_a011.html)
 * [A012 - Upload Attachments](explore_endpoint_a012.html)
 * [A013 - Accept Referral](explore_endpoint_a013.html)
 * [A014 - Reject Referral](explore_endpoint_a014.html)
