@@ -13,10 +13,10 @@ This business flow describes the process of accessing Clinical Referral Informat
 
 #### This business flow involves the following APIs
 
-* A005 – Retrieve Referral Request
-* A006 – Retrieve Attachment
-* A007 – Retrieve Clinical Information
-* A008 – Retrieve Worklist
+* [A005 – Retrieve Referral Request](explore_endpoint_a005.html)
+* [A006 – Retrieve Attachment](explore_endpoint_a006.html)
+* [A007 – Retrieve Clinical Information](explore_endpoint_a007.html)
+* [A008 – Retrieve Worklist](explore_endpoint_a008.html)
 
 #### Review the diagram below to learn more
 

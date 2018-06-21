@@ -13,9 +13,9 @@ This business flow describes the process of creating an authorised professional 
 
 #### This business flow involves the following APIs
 
-* A001 – Create Professional Session
-* A002 – Professional Session Select Role
-* A003 – Delete Professional Session
+* [A001 – Create Professional Session](explore_endpoint_a001.html)
+* [A002 – Professional Session Select Role](explore_endpoint_a002.html)
+* [A003 – Delete Professional Session](explore_endpoint_a003.html)
 
 #### Review the diagram below to learn more
 

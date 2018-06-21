@@ -17,8 +17,8 @@ The second option limits the results to services which the user is able to refer
 
 #### This business flow involves the following APIs
 
-* A009 - Directory Service Search
-* A010 - Patient Service Search
+* [A009 - Directory Service Search](explore_endpoint_a009.html)
+* [A010 - Patient Service Search](explore_endpoint_a010.html)
 
 #### Review the diagram below to learn more
 
