@@ -93,7 +93,7 @@ entries:
         - title: "A008: Retrieve Worklist"
           url: /explore_endpoint_a008.html
           output: web
-        - title: "A009: Directory Service Search"
+        - title: "A009: Retrieve Generic Service Search"
           url: /explore_endpoint_a009.html
           output: web
         - title: "A010: Patient Service Search"
