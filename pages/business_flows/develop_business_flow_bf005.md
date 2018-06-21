@@ -17,8 +17,10 @@ While an appointment booking (or a booking deferral) is made at a specific servi
 
 * [A011 - Create Referral Shortlist](explore_endpoint_a011.html)
 * [A012 - Upload Attachments](explore_endpoint_a012.html)
-* [A013 - Accept Referral](explore_endpoint_a013.html)
-* [A014 - Reject Referral](explore_endpoint_a014.html)
+* A015 - Retrieve Appointment Slots
+* A016 - Book Appointment
+* A017 - Defer to Provider
+* A018 - Re-book Appointment
 
 #### Review the diagram below to learn more
 
