@@ -13,10 +13,14 @@ summary: "Agreements related to the e-Referral APIs"
 * [End User Policy](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-End-User-Policy-Template_V1_01.docx) (v1.01)
 * [Connection Agreement](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-Connection-Agreement_Template_V1_01.docx) (v1.01)
 
+<div style="border: 2px solid #886644; padding: 10px; background: #eeccaa;">
+Please note: The documents within this section remain subject to change, with the Data Sharing approach currently under approval.
+</div>
+
 ## Special Terms
 
 <div style="border: 2px solid #888888; padding: 10px; background: #eeeeee;">
-<i>Version 1.0 of NHS e-Referral API Special Terms. Effective date 1 June 2018. Applicable to all supplier and provider partners and should be read in conjunction with the End User Policy and Connection Agreement above.</i>
+Version 1.0 of NHS e-Referral API Special Terms. Effective date 1 June 2018. Applicable to all supplier and provider partners and should be read in conjunction with the End User Policy and Connection Agreement above.
 </div>
 
 ### Data Sharing Requirements and Policy
