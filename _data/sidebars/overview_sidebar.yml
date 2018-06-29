@@ -93,8 +93,7 @@ entries:
         - title: "A008: Retrieve Worklist"
           url: /explore_endpoint_a008.html
           output: web
-
-      subfolders:
+          
       - title: Alpha Endpoints
         output: web
         subfolderitems:
