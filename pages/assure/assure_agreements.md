@@ -13,7 +13,7 @@ summary: "Agreements related to the e-Referral APIs"
 * [End User Policy](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-End-User-Policy-Template_V1_01.docx) (v1.01)
 * [Connection Agreement](https://developer.nhs.uk/wp-content/uploads/2018/05/NHSD-Connection-Agreement_Template_V1_01.docx) (v1.01)
 
-<div style="border: 2px solid #886644; padding: 10px; background: #eeccaa;">
+<div style="border: 2px solid #884444; padding: 10px; background: #eeaaaa;">
 Please note: The documents within this section remain subject to change, with the Data Sharing approach currently under approval.
 </div>
 
