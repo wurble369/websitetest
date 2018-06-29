@@ -102,5 +102,5 @@ Notice period for termination of the service will be defined in the written noti
 * The circumstances of the termination.
 
 <div style="border: 2px solid #888888; padding: 10px; background: #eeeeee;">
-<i>End of Special Terms</i>
+<i>End of Special Terms.</i>
 </div>
