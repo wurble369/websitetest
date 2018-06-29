@@ -60,7 +60,7 @@ entries:
     - title: API Environments
       url: /explore_api_environments.html
       output: web
-    - title: Endpoint Overview
+    - title: Endpoint Catalogue
       url: /explore_endpoint_catalogue.html
       output: web
 
@@ -94,7 +94,6 @@ entries:
           url: /explore_endpoint_a008.html
           output: web
 
-    subfolders:
     - title: Alpha Endpoints
       output: web
       subfolderitems:
