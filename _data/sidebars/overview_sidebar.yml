@@ -94,9 +94,10 @@ entries:
           url: /explore_endpoint_a008.html
           output: web
 
-    - title: Alpha Endpoints
-      output: web
-      subfolderitems:
+      subfolders:
+      - title: Alpha Endpoints
+        output: web
+        subfolderitems:
 
         - title: "A009: Retrieve Generic Service Search"
           url: /explore_endpoint_a009.html
