@@ -14,9 +14,9 @@ entries:
     - title: News and Events
       url: /news_and_events.html
       output: web
-    - title: Strategic Approach
-      url: /strategic_approach.html
-      output: web
+#    - title: Strategic Approach
+#      url: /strategic_approach.html
+#      output: web
     - title: Deployment History
       url: /deployment_history.html
       output: web
@@ -31,9 +31,9 @@ entries:
     - title: Development Journey
       url: /getstarted_development_journey.html
       output: web
-    - title: Implementation Steps
-      url: /getstarted_implementation_steps.html
-      output: web
+#    - title: Implementation Steps
+#      url: /getstarted_implementation_steps.html
+#      output: web
     - title: Get Connected
       url: /getstarted_get_connected.html
       output: web
