@@ -22,8 +22,8 @@ This API lets the professional user retrieve appointment slots to book a slot fo
 Provide ASID for the end-point system, Session Key and Content-Type.
 
 #### Example
-```XAPI_ASID:{{ASID}}
-HTTP_X_SESSION_KEY:{{sessionKey}}
+```XAPI_ASID:{ASID}
+HTTP_X_SESSION_KEY:{sessionKey}
 Content-Type: application/json+fhir
 ```
 
